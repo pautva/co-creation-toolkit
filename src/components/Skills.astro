@@ -1,0 +1,77 @@
+---
+import Icon from './Icon.astro';
+---
+
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>How we work</h2>
+		<p>UX team typically follows a user-centered design process, which involves the following steps:</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>1. Research</h2>
+		<p>The team conducts research to understand the needs, behaviors, and motivations of the users. This may involve ++conducting usability tests, focus groups, surveys, and other methods to gather data**.</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>2. Analysis</h2>
+		<p>The team analyzes the data collected from the research to identify patterns and insights. They use this information to create personas and user stories, which help to understand the user's perspective and goals.</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>3. Design</h2>
+		<p>Based on the research and analysis, the team creates design concepts and prototypes. These may include wireframes, mockups, and high-fidelity prototypes, which are used to communicate the design vision and test the user experience.</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>4. Testing</h2>
+		<p>The team conducts usability testing to evaluate the design and gather feedback from users. They use this feedback to iterate and improve the design.</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>5. Implementation</h2>
+		<p>The team works with developers to implement the design into the product. They may also provide support and guidance to ensure that the design is implemented correctly.</p>
+	</div>
+</section>
+
+<style>
+	.box {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+</style>
