@@ -17,6 +17,7 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
 import Deliverables from '../components/Deliverables.astro';
 import Resources from '../components/Resources.astro';
+import Team from '../components/Team.astro';
 
 
 // Content Fetching: List four most recent work projects
@@ -48,7 +49,7 @@ const projects = (await getCollection('work'))
 					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
 					width="480"
 					height="620"
-					src="/assets/ad-illustration.svg"
+					src="/analysis-and-design-portfolio/assets/ad-illustration.svg"
 				/>
 			</header>
 
@@ -78,7 +79,7 @@ const projects = (await getCollection('work'))
 				</div>
 
 				<div class="cta">
-					<CallToAction href="/work/">
+					<CallToAction href="/analysis-and-design-portfolio/work/">
 						View All
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
@@ -116,10 +117,14 @@ const projects = (await getCollection('work'))
 					<Resources />
 				</div>
 			</section>
+
+			<section>
+				<div class="wrapper stack gap-8 lg:gap-20 pt-256">
+					<Team />
+				</div>
+			</section>
 		</main>
-
-
-
+		
 		<ContactCTA />
 	</div>
 </BaseLayout>
@@ -191,7 +196,7 @@ const projects = (await getCollection('work'))
 		top: 0;
 		transform: translateY(-75%) translateX(-50%);
 		background:
-			url('/assets/backgrounds/noise.png') top center/220px repeat,
+			url('/analysis-and-design-portfolio/assets/backgrounds/noise.png') top center/220px repeat,
 			var(--hero-bg) center center / var(--bg-gradient-size) no-repeat,
 			var(--gray-999);
 		background-blend-mode: overlay, normal, normal, normal;
