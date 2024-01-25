@@ -18,7 +18,9 @@ import Skills from '../components/Skills.astro';
 import Deliverables from '../components/Deliverables.astro';
 import Resources from '../components/Resources.astro';
 import Team from '../components/Team.astro';
-
+import Quote1 from '../components/Quote1.astro';
+import Quote2 from '../components/Quote2.astro';
+import Services from '../components/Services.astro';
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection('work'))
@@ -86,6 +88,12 @@ const projects = (await getCollection('work'))
 				</div>
 			</section>
 
+			<section>
+				<div class="wrapper stack gap-8 lg:gap-20 pt-256">
+					<Quote2 />
+				</div>
+			</section>
+
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Recent Projects</h3>
@@ -123,6 +131,19 @@ const projects = (await getCollection('work'))
 					<Team />
 				</div>
 			</section>
+
+			<section>
+				<div class="wrapper stack gap-8 lg:gap-20 pt-256">
+					<Quote1 />
+				</div>
+			</section>
+
+			<section>
+				<div class="wrapper stack gap-8 lg:gap-20 pt-256">
+					<Services />
+				</div>
+			</section>
+
 		</main>
 		
 		<ContactCTA />
@@ -146,7 +167,7 @@ const projects = (await getCollection('work'))
 		object-fit: cover;
 		object-position: top;
 		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
+		/* box-shadow: var(--shadow-md); */
 	}
 
 	@media (min-width: 50em) {
