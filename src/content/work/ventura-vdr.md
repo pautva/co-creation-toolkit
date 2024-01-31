@@ -1,7 +1,7 @@
 ---
 title: Ventura Virtual Decision Room 
 publishDate: 2020-03-02 00:00:00
-img: /analysis-and-design-portfolio/assets/work/vdr/vdr-screenshots.png
+img: /analysis-and-design-portfolio/assets/illustrations/shopping.svg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   Our challenge in this project was to prototype a decision support tool which would enable local government, the local community and other relevant partners such as regulators and water utility companies to collaboratively plan and evaluate the environmental sustainability of urban growth planning scenarios using co-designed water neutrality indicators.

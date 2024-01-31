@@ -1,7 +1,7 @@
 ---
 title: Technology Metals Observatory 
 publishDate: 2019-12-01 00:00:00
-img: /analysis-and-design-portfolio/assets/work/met4tech/screenshot-met4tech-2.png
+img: /analysis-and-design-portfolio/assets/illustrations/nature_rock.svg
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
   We paired with a cutting-edge music API and a team of horticulturalists

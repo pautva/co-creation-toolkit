@@ -21,6 +21,7 @@ import Team from '../components/Team.astro';
 import Quote1 from '../components/Quote1.astro';
 import Quote2 from '../components/Quote2.astro';
 import Services from '../components/Services.astro';
+import Design from '../components/Design.astro';
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection('work'))
@@ -98,6 +99,12 @@ const projects = (await getCollection('work'))
 			<section>
 				<div class="wrapper stack gap-8 lg:gap-20 pt-256">
 					<Quote2 />
+				</div>
+			</section>
+
+			<section>
+				<div class="wrapper stack gap-8 lg:gap-20 pt-256">
+					<Design />
 				</div>
 			</section>
 
