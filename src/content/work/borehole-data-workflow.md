@@ -1,7 +1,7 @@
 ---
 title: Borehole Data Workflow
 publishDate: 2020-03-04 00:00:00
-img: /analysis-and-design-portfolio/assets/work/borehole-data-workflow-min.png
+img: /analysis-and-design-portfolio/assets/illustrations/environment_2.svg
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
   Our team undertook a project to develop infographics illustrating the digital workflow for AGS (Association of Geotechnical and Geoenvironmental Specialists) borehole data management. AGS data is the industry-standard exchange format for geotechnical data in the UK, and our dataset comprised 1.3 million records.
