@@ -10,7 +10,7 @@ import Icon from "./Icon.astro";
     class="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-10 md:px-7"
   >
     <div
-      class="relative py-24 rounded-3xl" style="background: linear-gradient(73deg, #002E40 0%, #AD9C70 50.87%, #002E40 100%);"
+    class="relative py-24 rounded-3xl cta-bg"
     >
       <div class="max-w-lg px-4 mx-auto text-left">
         <h2
@@ -154,6 +154,17 @@ import Icon from "./Icon.astro";
     </div>
   </div>
 </section>
+
+<style>
+
+.cta-bg {
+  background: linear-gradient(73deg, #AD9C70 0%, #002E40 100%);
+}
+
+:root.theme-dark .cta-bg {
+  background: radial-gradient(circle at 111% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+}
+</style>
 
 <!-- <aside>
 	<h2>Interested in working together?</h2>
