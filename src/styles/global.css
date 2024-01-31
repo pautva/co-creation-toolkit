@@ -113,6 +113,15 @@
 		0px 7px 7px rgba(255, 255, 255, 0.05), 0px 2px 4px rgba(255, 255, 255, 0.06);
 	--shadow-lg: 0px 62px 25px rgba(255, 255, 255, 0.01), 0px 35px 21px rgba(255, 255, 255, 0.05),
 		0px 16px 16px rgba(255, 255, 255, 0.1), 0px 4px 9px rgba(255, 255, 255, 0.12);
+
+}
+
+.hero-image {
+	content: url('/analysis-and-design-portfolio/assets/ad-illustration.svg');
+}
+
+:root.theme-dark .hero-image {
+	content: url('/analysis-and-design-portfolio/assets/ad-illustration-dark.svg');
 }
 
 html,
