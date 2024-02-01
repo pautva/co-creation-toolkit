@@ -23,7 +23,10 @@
 	--accent-subtle-overlay: var(--accent-overlay);
 	--accent-text-over: var(--gray-999);
 
-	--link-color: var(--accent-regular);
+	--bgs-1: #002E40;
+	--bgs-2: #AD9C70;
+
+	--link-color: var(--accent-dark);
 
 	/* Gradients */
 	--gradient-stop-1: var(--accent-light);
