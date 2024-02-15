@@ -17,6 +17,7 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
 import Deliverables from '../components/Deliverables.astro';
 import Resources from '../components/Resources.astro';
+import KeyMethods from '../components/KeyMethods.astro';
 import Team from '../components/Team.astro';
 import Quote1 from '../components/Quote1.astro';
 import Quote2 from '../components/Quote2.astro';
@@ -137,6 +138,12 @@ const projects = (await getCollection('work'))
 				</header>
 				<div class="wrapper stack gap-8 lg:gap-20 pt-256">
 					<Deliverables />
+				</div>
+			</section>
+
+			<section>
+				<div class="wrapper stack gap-8 lg:gap-20 pt-256">
+					<KeyMethods/>
 				</div>
 			</section>
 	
