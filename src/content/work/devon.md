@@ -1,10 +1,11 @@
 ---
 title: Devon Design Sprint 
 publishDate: 2022-03-02 00:00:00
-img: /analysis-and-design-portfolio/assets/illustrations/nldp-farmer.svg
+# img: /analysis-and-design-portfolio/assets/illustrations/nldp-farmer.svg
+img: /analysis-and-design-portfolio/assets/work/devon/devon-desing-sprint-plan.png
 img_alt: Illustration of land use
 description: |
-  Over the course of five days, a group of stakeholders involved in the land use decision-making process in Devon worked together as a team to create a prototype decision support tool aimed at facilitating carbon-focused land use decisions in the rural environment. After the prototype was developed, it was tested by a range of intended users to assess its usability and effectiveness.
+  In a five-day workshop, Devon stakeholders teamed up to prototype a land use decision tool with a focus on carbon impact.
 tags:
   - Design Sprint
   - User Research
@@ -12,7 +13,7 @@ tags:
   - User Testing
 ---
 
-This case study briefly describes the activities of this design sprint, the outcomes and the lessons learned.
+After the prototype was developed, it was tested by a range of intended users to assess its usability and effectiveness. This case study briefly describes the activities of this design sprint, the outcomes and the lessons learned.
 
 ## Activities
 

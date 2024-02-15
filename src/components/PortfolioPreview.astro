@@ -10,6 +10,7 @@ const { data, slug } = Astro.props.project;
 
 <a class="card" href={`/analysis-and-design-portfolio/work/${slug}`}>
 	<span class="title">{data.title}</span>
+	<span class="description">{data.description}</span>
 	<img src={data.img} alt={data.img_alt || ''} loading="lazy" decoding="async" />
 </a>
 
@@ -43,6 +44,17 @@ const { data, slug } = Astro.props.project;
 		color: var(--gray-200);
 		border-radius: 0.375rem;
 		border: 2px solid var(--gray-0);
+		text-transform: uppercase; 
+	}
+
+	.description
+	{
+		/* grid-area: 3 / 3 / 4 / 4; */
+		font-size: 1rem;
+		padding: 12px;
+		font-weight: regular;
+		font-family: var(--font-body);
+		color: var(--gray-200);
 	}
 
 	img {

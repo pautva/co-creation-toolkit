@@ -4,7 +4,7 @@ publishDate: 2019-10-02 00:00:00
 img: /analysis-and-design-portfolio/assets/work/geospatial/Persona - Data Expert.png
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
-  In ‘Geo6’ Data Discoverability 2 and 3, we conducted extensive work to develop geospatial data user archetypes, user journeys, and recommendations, along with wireframes. The final outcome was the creation of a guidance document for creating user-friendly geospatial data portals that offer valuable insights and aid informed decision-making.
+  We researched geospatial data users and designed guidelines to create user-friendly portals that make data easy to find and use for better decision-making.
 tags:
   - User Research
   - Design Guidelines
