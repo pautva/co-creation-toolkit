@@ -1,8 +1,8 @@
 ---
 title: Ventura Virtual Decision Room 
 publishDate: 2020-03-02 00:00:00
-# img: /analysis-and-design-portfolio/assets/illustrations/shopping.svg
-img: /analysis-and-design-portfolio/assets/work/vdr/vdr-screenshot.jpg
+# img: /Co-Creation-Toolkit/assets/illustrations/shopping.svg
+img: /Co-Creation-Toolkit/assets/work/vdr/vdr-screenshot.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   We prototyped a tool to evaluate water neutrality for urban growth scenarios with input from local government, community, and industry.
@@ -54,7 +54,7 @@ The key users and their goals were:
 * **United Utilities** - Explore VDR to inform the setting of rules needed to reach 2050 goal on surface water to sewer standards
 * **Strategic town planners** - Explore VDR together with United Utilities and Environment Agency to develop a collaborative plan for reaching 2050 growth targets in a sustainable way
 
-![Image](/analysis-and-design-portfolio/assets/work/vdr/vdr-home.jpg)
+![Image](/Co-Creation-Toolkit/assets/work/vdr/vdr-home.jpg)
 *VDR tool will allow users to explore business as usual scenario, create new scenarios and view/edit model settings.*
 
 ## Impact
@@ -77,7 +77,7 @@ If we are successful and can create an effective decision support tool for evide
 
 If this proves to be a successful tool, it could also be applied to other regions besides Greater Manchester.
 
-![Image](/analysis-and-design-portfolio/assets/work/vdr/vdr-screenshot.jpg)
+![Image](/Co-Creation-Toolkit/assets/work/vdr/vdr-screenshot.jpg)
 *VDR tool will allow users to explore business as usual scenario, create new scenarios and view/edit model settings.*
 
 ## Lessons learned

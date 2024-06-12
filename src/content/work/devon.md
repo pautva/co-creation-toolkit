@@ -1,8 +1,8 @@
 ---
 title: Devon Design Sprint 
 publishDate: 2022-03-02 00:00:00
-# img: /analysis-and-design-portfolio/assets/illustrations/nldp-farmer.svg
-img: /analysis-and-design-portfolio/assets/work/devon/devon-desing-sprint-plan.png
+# img: /Co-Creation-Toolkit/assets/illustrations/nldp-farmer.svg
+img: /Co-Creation-Toolkit/assets/work/devon/devon-desing-sprint-plan.png
 img_alt: Illustration of land use
 description: |
   In a five-day workshop, Devon stakeholders teamed up to prototype a land use decision tool with a focus on carbon impact.
@@ -19,7 +19,7 @@ After the prototype was developed, it was tested by a range of intended users to
 
 > We set out to investigate how data and digital tools can help consider and understand the effects that land use decisions have on carbon sequestration and storage in the context of soil, woodland/ forestry and peatlands.
 
-![image](/analysis-and-design-portfolio/assets/work/devon/nldp-sprint-pic-3.png)
+![image](/Co-Creation-Toolkit/assets/work/devon/nldp-sprint-pic-3.png)
 *The user journey for two key user groups - Land Managers and Land User Influences*
 
 
@@ -27,14 +27,14 @@ We ran the design sprint for a full five days. This was necessary due the comple
 
 The goal of the first day was to encourage everyone to share what they already know and develop a common understanding with the rest of the group. By starting at the beginning (even if some people are already familiar with the problem), it nudges the group into a beginner’s mindset and leads to fresh solutions.
 
-![image](/analysis-and-design-portfolio/assets/work/devon/devon-desing-sprint-plan.png)
+![image](/Co-Creation-Toolkit/assets/work/devon/devon-desing-sprint-plan.png)
 *The user journey for two key user groups - Land Managers and Land User Influences*
 
 The second day of the design sprint was about finding inspiration, looking back at the decisions made during Day 1, and starting to assemble possible solutions. Now that the team has narrowed down a problem space, it was time to start the idea generation process with sketches.
 
 Day three was focused on generating and selecting the best solutions to the problem or challenge identified on the previous day and storyboarding the most promising idea that will be prototyped the following day.
 
-![image](/analysis-and-design-portfolio/assets/work/devon/nldp-sprint-pic-2.png)
+![image](/Co-Creation-Toolkit/assets/work/devon/nldp-sprint-pic-2.png)
 
 The purpose of day four was to create a realistic, interactive prototype of the chosen solution. The prototype was designed to simulate the key features and interactions that users will have with the final product.
 
@@ -42,7 +42,7 @@ On day five of the design sprint, user testing was conducted to validate the pro
 
 > The interactive prototype was created using Figma design and prototyping tool and can be accessed in a web browser using the following link: [https://tinyurl.com/nldp-prototype](https://tinyurl.com/nldp-prototype)
 
-![image](/analysis-and-design-portfolio/assets/work/devon/nldp-app-scrneehots.png)
+![image](/Co-Creation-Toolkit/assets/work/devon/nldp-app-scrneehots.png)
 *Prototype screenshots*
 
 ## Lessons learned
@@ -51,7 +51,7 @@ The design sprint and prototype led to an understanding that a suite of spatiall
 
 Having access to easy-to-use data is a critical part of having informed discussions around land use change. A shared evidence base is central to ensuring that leaders and local stakeholders are able to understand and communicate the benefits, trade-offs and shared outcomes possible from land use decision making.
 
-![image](/analysis-and-design-portfolio/assets/work/devon/nldp-illustration.png)
+![image](/Co-Creation-Toolkit/assets/work/devon/nldp-illustration.png)
 
 It is key that tools should include the multifunctional benefits and competing pressures of land use change to give a holistic picture of land use opportunities and constraints. Stakeholders want information presented in a clear and easy to interpret way which can help them understand business risks and make better use of financial opportunities that would support land use change.
 

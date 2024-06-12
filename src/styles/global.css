@@ -120,11 +120,11 @@
 }
 
 .hero-image {
-	content: url('/analysis-and-design-portfolio/assets/ad-illustration.svg');
+	content: url('/Co-Creation-Toolkit/assets/ad-illustration.svg');
 }
 
 :root.theme-dark .hero-image {
-	content: url('/analysis-and-design-portfolio/assets/ad-illustration-dark.svg');
+	content: url('/Co-Creation-Toolkit/assets/ad-illustration-dark.svg');
 }
 
 html,
