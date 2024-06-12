@@ -1,8 +1,8 @@
 ---
 title: Borehole Data Workflow
 publishDate: 2020-03-04 00:00:00
-# img: /Co-Creation-Toolkit/assets/illustrations/environment_2.svg
-img: /Co-Creation-Toolkit/assets/work/Borehole-Data-and-Related-Databasess-v1-MIRO.png
+# img: /co-creation-toolkit/assets/illustrations/environment_2.svg
+img: /co-creation-toolkit/assets/work/Borehole-Data-and-Related-Databasess-v1-MIRO.png
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
   We designed infographics to explain the digital workflow for the AGS geotechnical data standard, based on 1.3 million records.
@@ -19,7 +19,7 @@ The goal was to enhance clarity and communication in maintaining onshore borehol
 
 We designed infographics that succinctly conveyed each step of the AGS borehole data management process. These visual aids provided a clear understanding of data flow, processing stages, and decision points within the workflow.
 
-![Borehole Data Infographics](/Co-Creation-Toolkit/assets/work/Borehole-Data-and-Related-Databasess-v1-MIRO.png)
+![Borehole Data Infographics](/co-creation-toolkit/assets/work/Borehole-Data-and-Related-Databasess-v1-MIRO.png)
 
 ## Impact
 

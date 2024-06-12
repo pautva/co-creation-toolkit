@@ -1,8 +1,8 @@
 ---
 title: Technology Metals Observatory 
 publishDate: 2019-12-01 00:00:00
-# img: /Co-Creation-Toolkit/assets/illustrations/nature_rock.svg
-img: /Co-Creation-Toolkit/assets/work/met4tech/screenshot-met4tech.png
+# img: /co-creation-toolkit/assets/illustrations/nature_rock.svg
+img: /co-creation-toolkit/assets/work/met4tech/screenshot-met4tech.png
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
   We paired with a cutting-edge music API and a team of horticulturalists
@@ -23,7 +23,7 @@ We achieved this by setting up a collaborative design approach that allowed a cr
 
 To create team alignment and agree on a shared vision we conducted a design sprint that ran over the course of three days. On the first day, the team reviewed background information, heard expert talks, and identified opportunities and grouped them into themes. We also agreed on a long-term goal and three questions that would guide the sprint. On the second day, the group did concept sketching exercises and presented inspirational websites and tools. On the third day, we reviewed detailed concepts from the previous day and created a storyboard that served as the starting point for a more detailed prototype. After the workshop, we also did a card sorting exercise to clarify the information architecture and created an interactive prototype for evaluating the effectiveness and usability of this new platform.
 
-![Image description](/Co-Creation-Toolkit/assets/work/met4tech/screenshot-met4tech-1.png)
+![Image description](/co-creation-toolkit/assets/work/met4tech/screenshot-met4tech-1.png)
 
 ### What is a design sprint? 
 
@@ -35,7 +35,7 @@ One of the key challenges of this project was to effectively aggregate and integ
 
 This approach greatly enhanced our team’s productivity and efficiency. The end result was a fully operational, highly detailed prototype of a technology metals website, which established the fundamental information architecture and already included information on key products, components, and materials.
 
-![Image description](/Co-Creation-Toolkit/assets/work/met4tech/screenshot-met4tech.png)
+![Image description](/co-creation-toolkit/assets/work/met4tech/screenshot-met4tech.png)
 
 ## Lessons learned
 
@@ -45,7 +45,7 @@ This experience also highlighted the value of an iterative design approach. The 
 
 We used stock images and illustrations to illustrate some concepts on the website, but they didn’t have a matching style. Towards the end of the project we had to revisit these assets and replace some of them in order to create a more consistent and professional looking platform. To make this task easier, it is important to define the style of images and illustrations at the start of a project and to make sure everyone knows where to source them from.
 
-![Image description](/Co-Creation-Toolkit/assets/work/met4tech/screenshot-met4tech-3.png)
+![Image description](/co-creation-toolkit/assets/work/met4tech/screenshot-met4tech-3.png)
 
 ## Links
 

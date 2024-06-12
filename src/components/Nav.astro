@@ -5,9 +5,9 @@ import type { iconPaths } from './IconPaths';
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
-	{ label: 'Home', href: '/Co-Creation-Toolkit/' },
-	{ label: 'Work', href: '/Co-Creation-Toolkit/work/' },
-	{ label: 'About', href: '/Co-Creation-Toolkit/about/' },
+	{ label: 'Home', href: '/co-creation-toolkit/' },
+	{ label: 'Work', href: '/co-creation-toolkit/work/' },
+	{ label: 'About', href: '/co-creation-toolkit/about/' },
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
@@ -21,7 +21,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 
 <nav>
 	<div class="menu-header">
-		<a href="/Co-Creation-Toolkit/" class="site-title">
+		<a href="/co-creation-toolkit/" class="site-title">
 			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
 			Analysis and Design
 		</a>
@@ -46,7 +46,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 								{
 									active:
 										Astro.url.pathname === href ||
-										(href !== '/Co-Creation-Toolkit/' && Astro.url.pathname.startsWith(href)),
+										(href !== '/co-creation-toolkit/' && Astro.url.pathname.startsWith(href)),
 								},
 							]}
 							href={href}
@@ -84,7 +84,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 								{
 									active:
 										Astro.url.pathname === href ||
-										(href !== '/Co-Creation-Toolkit/' && Astro.url.pathname.startsWith(href)),
+										(href !== '/co-creation-toolkit/' && Astro.url.pathname.startsWith(href)),
 								},
 							]}
 							href={href}

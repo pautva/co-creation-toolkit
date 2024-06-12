@@ -3,7 +3,7 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
     site: 'https://pautva.github.io',
-    base: '/Co-Creation-Toolkit/',
+    base: '/co-creation-toolkit/',
     outDir: 'dist', // Output directory
     publicDir: 'static',
     integrations: [tailwind()]
