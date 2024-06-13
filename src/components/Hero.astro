@@ -1,55 +1,74 @@
 ---
 interface Props {
-	title: string;
-	tagline?: string;
-	align?: 'start' | 'center';
+  title: string;
+  tagline?: string;
+  subheading?: string;
+  align?: "start" | "center";
 }
 
-const { align = 'center', tagline, title } = Astro.props;
+const { align = "center", tagline, title, subheading } = Astro.props;
 ---
 
-<div class:list={['hero stack gap-4', align]}>
-	<div class="stack gap-2">
-		<h1 class="title">{title}</h1>
-		{tagline && <p class="tagline">{tagline}</p>}
-	</div>
-	<slot />
+<div class:list={["hero stack gap-8", align]}>
+  <div class="stack gap-4">
+    <h1 class="title">{title}</h1>
+    <p class="subheading">{subheading}</p>
+    {tagline && <p class="tagline">{tagline}</p>}
+  </div>
+  <slot />
 </div>
 
 <style>
-	.hero {
-		font-size: var(--text-lg);
-		text-align: center;
-	}
+  .hero {
+    font-size: var(--text-lg);
+    text-align: center;
+  }
 
-	.title,
-	.tagline {
-		max-width: 50ch;
-		margin-inline: auto;
-		color: var(--gray-100);
-	}
+  .title,
+  .tagline {
+    max-width: 50ch;
+    margin-inline: auto;
+    color: var(--gray-100);
+  }
 
-	.title {
-		font-size: var(--text-3xl);
-		color: var(--gray-0);
-	}
+  .title {
+    font-size: var(--text-3xl);
+    color: var(--gray-0);
+  }
 
-	@media (min-width: 50em) {
-		.hero {
-			font-size: var(--text-lg);
-		}
+  .subheading {
+    display: flex;
+    padding: 6px 12px;
+    align-items: flex-start;
+    gap: 10px;
+    background: var(--BGS-Primary-Stone, #ad9c70);
+    color: #fff;
+    font-feature-settings:
+      "salt" on,
+      "liga" off;
+    font-family: Inter;
+    /* font-size: 18px; */
+    /* font-style: italic; */
+    font-weight: 400;
+    line-height: normal;
+  }
 
-		.start {
-			text-align: start;
-		}
+  @media (min-width: 50em) {
+    .hero {
+      font-size: var(--text-lg);
+    }
 
-		.start .title,
-		.start .tagline {
-			margin-inline: unset;
-		}
+    .start {
+      text-align: start;
+    }
 
-		.title {
-			font-size: var(--text-4xl);
-		}
-	}
+    .start .title,
+    .start .tagline {
+      margin-inline: unset;
+    }
+
+    .title {
+      font-size: var(--text-4xl);
+    }
+  }
 </style>
