@@ -1,8 +1,12 @@
-# Astro Starter Kit: Portfolio
+# Co-Design Toolkit
 
-```sh
-npm create astro@latest -- --template portfolio
-```
+* Created with Astro
+* Using Tailwind
+* Using Preline UI
+
+# GitHub Pages Link
+
+https://pautva.github.io/co-creation-toolkit/
 
 ## 🧞 Commands
 
