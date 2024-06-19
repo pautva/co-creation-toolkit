@@ -37,35 +37,35 @@ const projects = (await getCollection("work"))
 ---
 
 <BaseLayout>
-  <main class="wrapper stack gap-20 lg:gap-48">
-    <div class="stack gap-20 lg:gap-48">
-      <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-        <header class="hero">
-          <Hero
-            title="Co-Creation Toolkit for Environmental Data Services"
-            subheading="Build better digital products and services for Environmental Data Science (EDS)."
-            tagline="Create user-friendly and effective environmental data services. This toolkit provides the resources and guidance you need to collaborate with users, gather insights, and co-design solutions that work."
-            align="start"
-          >
-            <div class="roles">
-              <Pill><Icon icon="pencil-line" size="1.33em" /> Co-Design</Pill>
-              <Pill><Icon icon="strategy" size="1.33em" /> User Research</Pill>
-              <Pill
-                ><Icon icon="microphone-stage" size="1.33em" /> Requirements Gathering</Pill
-              >
-            </div>
-          </Hero>
+  <div class="stack gap-20 lg:gap-48">
+    <div class="wrapper stack gap-8 lg:gap-20 pt-256">
+      <header class="hero">
+        <Hero
+          title="Co-Creation Toolkit for Environmental Data Services"
+          subheading="Build better digital products and services for Environmental Data Science (EDS)."
+          tagline="Create user-friendly and effective environmental data services. This toolkit provides the resources and guidance you need to collaborate with users, gather insights, and co-design solutions that work."
+          align="start"
+        >
+          <div class="roles">
+            <Pill><Icon icon="pencil-line" size="1.33em" /> Co-Design</Pill>
+            <Pill><Icon icon="strategy" size="1.33em" /> User Research</Pill>
+            <Pill
+              ><Icon icon="microphone-stage" size="1.33em" /> Requirements Gathering</Pill
+            >
+          </div>
+        </Hero>
 
-          <img
-            alt="Co-Creation Toolkit team illustration"
-            width="480"
-            height="620"
-            class="hero-image"
-            src="/co-creation-toolkit/assets/ad-illustration.svg"
-          />
-        </header>
-      </div>
+        <img
+          alt="Co-Creation Toolkit team illustration"
+          width="480"
+          height="620"
+          class="hero-image"
+          src="/co-creation-toolkit/assets/ad-illustration.svg"
+        />
+      </header>
+    </div>
 
+    <main class="wrapper stack gap-20 lg:gap-48">
       <section class="section with-background bg-variant">
         <header class="section-header stack gap-2 lg:gap-4">
           <h2 class="font-bold text-3xl md:text-5xl">Project Partners</h2>
@@ -137,15 +137,15 @@ const projects = (await getCollection("work"))
         </div>
       </section>
 
-      <section>
+      <!-- <section>
         <div class="wrapper stack gap-8 lg:gap-20 pt-256">
           <Design />
         </div>
-      </section>
+      </section> -->
 
       <section class="wrapper stack gap-8 lg:gap-20 pt-256">
         <header class="section-header stack gap-2 lg:gap-4 mx-auto">
-          <h3>Toolkit</h3>
+          <h3>Methods</h3>
           <p>
             Learn about the tools of human-centered design to understand your
             users, define their needs, and map out the perfect solution.
@@ -185,14 +185,14 @@ const projects = (await getCollection("work"))
           <Services />
         </div>
       </section> -->
-    </div>
 
-    <FAQ />
+      <FAQ />
 
-    <ContactCTA />
-
-    <Subscribe />
-  </main>
+      <ContactCTA />
+  
+      <Subscribe /> 
+    </main>
+  </div>
 </BaseLayout>
 
 <style>
@@ -285,7 +285,7 @@ const projects = (await getCollection("work"))
 
   .section-header-full-width {
     @apply section-header; /* Inherit styles from base class */
-    max-width: 75ch;    /* Remove max-width on large screens and up */
+    max-width: 75ch; /* Remove max-width on large screens and up */
   }
 
   .section-header h3 {
