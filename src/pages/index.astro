@@ -24,6 +24,8 @@ import Quote2 from "../components/Quote2.astro";
 import Services from "../components/Services.astro";
 import Design from "../components/Design.astro";
 import CoDesignDefinition from "../components/CoDesignDefinition.astro";
+import FAQ from "../components/FAQ.astro";
+import Subscribe from "../components/Subscribe.astro";
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection("work"))
@@ -185,7 +187,11 @@ const projects = (await getCollection("work"))
       </section> -->
     </div>
 
+    <FAQ />
+
     <ContactCTA />
+
+    <Subscribe />
   </main>
 </BaseLayout>
 
