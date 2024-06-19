@@ -23,6 +23,7 @@ import Quote1 from '../components/Quote1.astro';
 import Quote2 from '../components/Quote2.astro';
 import Services from '../components/Services.astro';
 import Design from '../components/Design.astro';
+import CoDesignDefinition from '../components/co-design-definition.astro';
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection('work'))
@@ -58,8 +59,9 @@ const projects = (await getCollection('work'))
 					src="/co-creation-toolkit/assets/ad-illustration.svg"
 				/>
 			</header>
-
 		</div>
+
+    <CoDesignDefinition />
 
 		<div class="wrapper stack gap-8 lg:gap-20 pt-256">
 			<header class="section-header stack gap-2 lg:gap-4 mx-auto">
