@@ -37,13 +37,13 @@ We also created 6 user archetypes to summarise the user research findings. Those
 * Geo data engineer
 * Non-geo data engineer
 
-![Geospatial data portal illustration](/co-creation-toolkit/assets/work/geospatial/Persona-Investigator.png)
+![Geospatial data portal illustration](/co-creation-toolkit/assets/case-studies/geospatial/Persona-Investigator.png)
 
 ### User Journeys
 
 User journey maps are widely used in UX to visualise how individuals complete specific tasks. These maps can take various formats and layouts, focusing on users’ thoughts, emotions, frustrations, and opportunities throughout the process to enhance usability and enjoyment. Four user journeys were crafted for spatial data experts, data experts, investigators, and solution innovators, who are active users of data portals. However, strategic leads and storytellers/consumers, who only interact with geospatial data indirectly, did not require user journeys for their use cases.
 
-![Geospatial data portal illustration](/co-creation-toolkit/assets/work/geospatial/user-journey-data-expert.png)
+![Geospatial data portal illustration](/co-creation-toolkit/assets/case-studies/geospatial/user-journey-data-expert.png)
 
 Each journey map consists of:
 
@@ -57,14 +57,14 @@ Each journey map consists of:
 
 The broad stages of the journey for discovering spatial data are quite similar for all archetypes. They could be defined as planning, wide search, deep search and data evaluation and use. They were identified from the interview questions on how people currently find and access data and from the observation tasks where participants had to complete two data related scenarios. The interviewees didn’t give those specific names for the stages; they were inferred from the actions they were describing or taking during the tasks.
 
-![Geospatial data portal illustration](/co-creation-toolkit/assets/work/geospatial/spatial-data-journey-v3.svg)
+![Geospatial data portal illustration](/co-creation-toolkit/assets/case-studies/geospatial/spatial-data-journey-v3.svg)
 *Key stages of the journey for discovering spatial data*
 
 The planning or problem space exploration stage usually doesn’t involve data portal use yet. In this stage some people might be proactively seeking new data challenges, some might be given specific data tasks to solve.
 
 In the wide search stage people usually rely on search engines or colleagues to get a better understanding of the available data landscape. They might find out that the data they are looking for exists on multiple sources, so they must find a way to identify which one of them is more trustworthy and better suited for their challenge.
 
-![Geospatial data portal illustration](/co-creation-toolkit/assets/work/geospatial/ux-formula.png)
+![Geospatial data portal illustration](/co-creation-toolkit/assets/case-studies/geospatial/ux-formula.png)
 *Good UX formula*
 
 Deep search stage is the place where people start using data portals in greater depth. They would identify the potential data portals that could hold the data they are looking for and they would want to narrow down the search. Data experts might spend a bit more time in the deep search stage to ensure that the data they found is the one they need, since they might not have the domain knowledge of that specific field.
@@ -73,7 +73,7 @@ The next stage – data evaluation and use – might also be done with the help 
 
 ## Data Discoverability 3
 
-![Geospatial data portal illustration](/co-creation-toolkit/assets/work/geospatial/geospatial-wireframes-v2.png)
+![Geospatial data portal illustration](/co-creation-toolkit/assets/case-studies/geospatial/geospatial-wireframes-v2.png)
 
 During the DD3 project, we collaborated with Ordnance Survey’s UX team to develop design guidelines, recommendations, and wireframes specifically for geospatial portal developers and designers.
 
