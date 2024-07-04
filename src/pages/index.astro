@@ -26,9 +26,12 @@ import Design from "../components/Design.astro";
 import CoDesignDefinition from "../components/CoDesignDefinition.astro";
 import FAQ from "../components/FAQ.astro";
 import Subscribe from "../components/Subscribe.astro";
+import WhyDidWeCreateThis from "../components/WhyDidWeCreateThis.astro";
+import CaseStudiesPreview from "../components/CaseStudiesPreview.astro";
+import Partners from "../components/Partners.astro";
 
 // Content Fetching: List four most recent work projects
-const projects = (await getCollection("work"))
+const caseStudies = (await getCollection("case-studies"))
   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
   .slice(0, 2);
 
@@ -66,28 +69,34 @@ const projects = (await getCollection("work"))
     </div>
 
     <main class="wrapper stack gap-20 lg:gap-48">
-      <section class="section with-background bg-variant">
-        <header class="section-header stack gap-2 lg:gap-4">
-          <h2 class="font-bold text-3xl md:text-5xl">Project Partners</h2>
-          <p>These are the project partners who contributed to this toolkit.</p>
-        </header>
 
-        <div class="gallery">
-          <Grid variant="small">
-            {
-              ["XYZ", "XYZ", "XYZ", "XYZ", "XYZ"].map((brand) => (
-                <li class="mention-card">
-                  <p>{brand}</p>
-                </li>
-              ))
-            }
-          </Grid>
+      <Partners />
+
+      <CaseStudiesPreview />
+
+      <section>
+        <div class="wrapper stack gap-8 lg:gap-20 pt-256">
+          <KeyMethods />
         </div>
       </section>
 
       <CoDesignDefinition />
 
-      <section class="section with-background with-cta">
+      <section>
+        <div class="wrapper stack gap-8 lg:gap-20 pt-256">
+          <Quote1 />
+        </div>
+      </section>
+
+      <WhyDidWeCreateThis />
+
+      <section>
+        <div class="wrapper stack gap-8 lg:gap-20 pt-256">
+          <Resources />
+        </div>
+      </section>
+
+      <!-- <section class="section with-background with-cta">
         <header class="section-header stack gap-2 lg:gap-4">
           <h2 class="font-bold text-3xl md:text-5xl">Case Studies</h2>
           <p>
@@ -96,10 +105,11 @@ const projects = (await getCollection("work"))
           </p>
         </header>
 
+
         <div class="gallery">
           <Grid variant="offset">
             {
-              projects.map((project) => (
+              caseStudies.map((project) => (
                 <li>
                   <PortfolioPreview project={project} />
                 </li>
@@ -109,14 +119,14 @@ const projects = (await getCollection("work"))
         </div>
 
         <div class="cta">
-          <CallToAction href="/co-creation-toolkit/work/">
+          <CallToAction href="/co-creation-toolkit/case-studies/">
             View All
             <Icon icon="arrow-right" size="1.2em" />
           </CallToAction>
         </div>
-      </section>
+      </section> -->
 
-      <div class="wrapper stack gap-8 lg:gap-20 pt-256">
+      <!-- <div class="wrapper stack gap-8 lg:gap-20 pt-256">
         <header class="section-header-full-width stack gap-2 lg:gap-4 mx-auto">
           <h3>Human-Centred Design</h3>
           <p>
@@ -129,13 +139,13 @@ const projects = (await getCollection("work"))
           </p>
         </header>
         <Skills />
-      </div>
+      </div> -->
 
-      <section>
+      <!-- <section>
         <div class="wrapper stack gap-8 lg:gap-20 pt-256">
           <Quote2 />
         </div>
-      </section>
+      </section> -->
 
       <!-- <section>
         <div class="wrapper stack gap-8 lg:gap-20 pt-256">
@@ -143,7 +153,7 @@ const projects = (await getCollection("work"))
         </div>
       </section> -->
 
-      <section class="wrapper stack gap-8 lg:gap-20 pt-256">
+      <!-- <section class="wrapper stack gap-8 lg:gap-20 pt-256">
         <header class="section-header stack gap-2 lg:gap-4 mx-auto">
           <h3>Methods</h3>
           <p>
@@ -154,29 +164,13 @@ const projects = (await getCollection("work"))
         <div class="wrapper stack gap-8 lg:gap-20 pt-256">
           <Deliverables />
         </div>
-      </section>
+      </section> -->
 
-      <section>
-        <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-          <KeyMethods />
-        </div>
-      </section>
 
-      <section>
-        <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-          <Resources />
-        </div>
-      </section>
 
       <section>
         <div class="wrapper stack gap-8 lg:gap-20 pt-256">
           <Team />
-        </div>
-      </section>
-
-      <section>
-        <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-          <Quote1 />
         </div>
       </section>
 
@@ -188,9 +182,10 @@ const projects = (await getCollection("work"))
 
       <FAQ />
 
-      <ContactCTA />
-  
-      <Subscribe /> 
+      <!-- <ContactCTA /> -->
+
+      <!-- <Subscribe /> -->
+       
     </main>
   </div>
 </BaseLayout>
