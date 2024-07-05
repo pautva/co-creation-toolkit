@@ -10,6 +10,7 @@ tags:
   - Design Guidelines
   - Best Practices
   - Geospatial Data
+featured: false
 ---
 
 In 2018 user researchers and designers across the Geo6 came together to explore the needs and frustrations of geospatial data portal users.
