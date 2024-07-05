@@ -5,7 +5,7 @@ interface Props {
   project: CollectionEntry<"case-studies">;
 }
 
-const { data, slug } = Astro.props.project;
+const { data, slug, tag } = Astro.props.project;
 ---
 
 <!-- Card -->
@@ -34,7 +34,7 @@ const { data, slug } = Astro.props.project;
       {data.title}
     </h3>
     <div class="flex flex-wrap gap-2 mt-2"> 
-      {data.tags.map(tag => (
+      {data.tags.map((tag: string) => (
         <span class="inline-flex items-center rounded-full px-2 py-1 text-xs font-semibold bg-gray-200 text-gray-800">
           {tag}
         </span>
