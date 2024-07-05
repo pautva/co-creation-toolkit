@@ -11,6 +11,7 @@ tags:
   - User Research
   - Prototyping
   - User Testing
+featured: true
 ---
 
 After the prototype was developed, it was tested by a range of intended users to assess its usability and effectiveness. This case study briefly describes the activities of this design sprint, the outcomes and the lessons learned.
@@ -61,5 +62,3 @@ The group also came to an understanding that design sprints are an effective way
 
 * [Devon Design Sprint Report](https://ffcc.co.uk/publications/devon-design-sprint-report)
 * [Prototype created for the Design Sprint](https://tinyurl.com/nldp-prototype)
-
-
