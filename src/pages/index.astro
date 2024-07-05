@@ -17,6 +17,7 @@ import Team from "../components/Team.astro";
 import Quote1 from "../components/Quote1.astro";
 import FAQ from "../components/FAQ.astro";
 import CaseStudiesPreview from "../components/CaseStudiesPreview.astro";
+import HowCanThisToolkitHelpYou from "../components/HowCanThisToolkitHelpYou.astro";
 
 // Content Fetching: List four most recent work projects
 const caseStudies = (await getCollection("case-studies"))
@@ -76,81 +77,15 @@ const caseStudies = (await getCollection("case-studies"))
 
       <section>
         <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-          <Resources />
+          <HowCanThisToolkitHelpYou />
         </div>
       </section>
 
-      <!-- <section class="section with-background with-cta">
-        <header class="section-header stack gap-2 lg:gap-4">
-          <h2 class="font-bold text-3xl md:text-5xl">Case Studies</h2>
-          <p>
-            Take a look below at some of our recent work for various BGS
-            projects.
-          </p>
-        </header>
-
-
-        <div class="gallery">
-          <Grid variant="offset">
-            {
-              caseStudies.map((project) => (
-                <li>
-                  <PortfolioPreview project={project} />
-                </li>
-              ))
-            }
-          </Grid>
-        </div>
-
-        <div class="cta">
-          <CallToAction href="/co-creation-toolkit/case-studies/">
-            View All
-            <Icon icon="arrow-right" size="1.2em" />
-          </CallToAction>
-        </div>
-      </section> -->
-
-      <!-- <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-        <header class="section-header-full-width stack gap-2 lg:gap-4 mx-auto">
-          <h3>Human-Centred Design</h3>
-          <p>
-            Human-centred design (HCD) is a creative approach that prioritises
-            understanding and empathising with end-users throughout the entire
-            design process. By conducting thorough research, involving users in
-            development, and focusing on their needs and limitations, HCD aims
-            to create intuitive, useful, and meaningful products, services, or
-            experiences that resonate with the people they are designed for.
-          </p>
-        </header>
-        <Skills />
-      </div> -->
-
-      <!-- <section>
+      <section>
         <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-          <Quote2 />
+          <Resources />
         </div>
-      </section> -->
-
-      <!-- <section>
-        <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-          <Design />
-        </div>
-      </section> -->
-
-      <!-- <section class="wrapper stack gap-8 lg:gap-20 pt-256">
-        <header class="section-header stack gap-2 lg:gap-4 mx-auto">
-          <h3>Methods</h3>
-          <p>
-            Learn about the tools of human-centered design to understand your
-            users, define their needs, and map out the perfect solution.
-          </p>
-        </header>
-        <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-          <Deliverables />
-        </div>
-      </section> -->
-
-
+      </section>
 
       <section>
         <div class="wrapper stack gap-8 lg:gap-20 pt-256">
