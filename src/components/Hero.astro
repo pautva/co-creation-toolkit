@@ -11,7 +11,7 @@ const { align = "center", tagline, title, subheading } = Astro.props;
 
 <div class:list={["hero stack gap-8", align]}>
   <div class="stack gap-4">
-    <h1 class="title">{title}</h1>
+    <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white">{title}</h1>
     <!-- <p class="subheading">{subheading}</p> -->
     {tagline && <p class="tagline">{tagline}</p>}
   </div>

@@ -9,6 +9,7 @@ description: |
 tags:
   - Service Blueprint
   - User Journey Mapping
+featured: false
 ---
 
 ## Objective
