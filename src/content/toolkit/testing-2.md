@@ -5,7 +5,7 @@ publishDate: 2022-03-02 00:00:00
 img: /co-creation-toolkit/assets/case-studies/devon/devon-desing-sprint-plan.png
 img_alt: Illustration of land use
 description: |
-  Rapid Prototyping
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 tags:
   - Prototyping
   - User Testing

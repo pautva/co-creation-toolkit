@@ -8,7 +8,6 @@ description: |
   In a five-day workshop, Devon stakeholders teamed up to prototype a land use decision tool with a focus on carbon impact.
 tags:
   - Design Sprint
-  - User Research
   - Prototyping
   - User Testing
 featured: true

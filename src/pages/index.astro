@@ -11,11 +11,11 @@ import Pill from "../components/Pill.astro";
 
 // Page section components
 import Resources from "../components/Resources.astro";
-import KeyMethods from "../components/KeyMethods.astro";
+import LatestTools from "../components/LatestTools.astro";
 import Team from "../components/Team.astro";
 import Quote1 from "../components/Quote1.astro";
 import FAQ from "../components/FAQ.astro";
-import CaseStudiesPreview from "../components/CaseStudiesPreview.astro";
+import LatestCaseStudies from "../components/LatestCaseStudies.astro";
 import HowCanThisToolkitHelpYou from "../components/HowCanThisToolkitHelpYou.astro";
 
 // Content Fetching: List four most recent work projects
@@ -58,49 +58,19 @@ import HowCanThisToolkitHelpYou from "../components/HowCanThisToolkitHelpYou.ast
 
     <main class="wrapper stack gap-20 lg:gap-48">
 
+      <LatestCaseStudies />
 
-      <CaseStudiesPreview />
+      <LatestTools />
 
-      <section>
-        <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-          <KeyMethods />
-        </div>
-      </section>
+      <Quote1 />
 
+      <HowCanThisToolkitHelpYou />
 
-      <section>
-        <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-          <Quote1 />
-        </div>
-      </section>
+      <Resources />
 
-      <section>
-        <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-          <HowCanThisToolkitHelpYou />
-        </div>
-      </section>
-
-      <section>
-        <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-          <Resources />
-        </div>
-      </section>
-
-      <section>
-        <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-          <Team />
-        </div>
-      </section>
-
-      <!-- <section>
-        <div class="wrapper stack gap-8 lg:gap-20 pt-256">
-          <Services />
-        </div>
-      </section> -->
+       <Team />
 
       <FAQ />
-
-      <!-- <ContactCTA /> -->
        
     </main>
   </div>
