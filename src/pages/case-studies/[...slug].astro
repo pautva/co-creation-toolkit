@@ -67,6 +67,91 @@ const { Content } = await entry.render();
     border-bottom: 1px solid var(--gray-800);
   }
 
+  .content :global(ul) {
+    list-style-type: square; /* Custom bullet style */
+    padding: 0; /* Remove default padding */
+    margin: 0 0 0 20px; /* Add left margin to indent the list */
+  }
+
+  .content :global(ul li) {
+    position: relative;
+    padding-left: 8px; /* Space for the custom bullet */
+    margin-bottom: 8px; /* Space between list items */
+    font-size: 16px; /* Adjust font size if needed */
+  }
+
+  .content :global(ul li::marker) {
+    color: var(--bgs-2);
+  }
+
+  .content :global(ol) {
+    list-style-type: decimal; /* Custom bullet style */
+    padding: 0; /* Remove default padding */
+    margin: 0 0 0 20px; /* Add left margin to indent the list */
+  }
+
+  .content :global(ol li) {
+    position: relative;
+    padding-left: 8px; /* Space for the custom bullet */
+    margin-bottom: 8px; /* Space between list items */
+    font-size: 16px; /* Adjust font size if needed */
+  }
+
+  .content :global(ol li::marker) {
+    color: var(--bgs-2); /* Custom color for the list numbers */
+  }
+
+  .content :global(blockquote) {
+    border-left: 4px solid var(--bgs-2); /* Left border color */
+    margin: 1.5em 0; /* Top/bottom margin */
+    padding: 1em 1.5em; /* Padding inside the blockquote */
+    color: var(--text-color); /* Text color */
+    background-color: var(--bg-light); /* Background color */
+    font-style: italic; /* Italicize the text */
+    position: relative; /* Ensure proper stacking context */
+    quotes: "“" "”" "‘" "’"; /* Custom quote marks */
+    font-size: var(--text-lg);
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .content :global(blockquote p) {
+    margin: 0; /* Remove default margin from p tags inside blockquote */
+  }
+
+  .content :global(blockquote::before) {
+    content: open-quote; /* Opening quote */
+    font-size: 2em; /* Make it larger */
+    color: var(--bgs-2); /* Color for the quote mark */
+    line-height: 0.1em; /* Adjust line height */
+    margin-right: 0.25em; /* Space after the quote mark */
+    vertical-align: -0.4em; /* Align quote mark vertically */
+  }
+
+  .content :global(blockquote::after) {
+    content: close-quote; /* Closing quote */
+    font-size: 2em; /* Make it larger */
+    color: var(--bgs-2); /* Color for the quote mark */
+    line-height: 0.1em; /* Adjust line height */
+    margin-left: 0.25em; /* Space before the quote mark */
+    vertical-align: -0.4em; /* Align quote mark vertically */
+  }
+
+   /* Styling for links */
+   .content :global(a) {
+    display: inline-block;
+    color: var(--link-color);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    color: var(--bgs-2);
+    
+    text-decoration: underline !important; /* Add underline on hover */
+  }
+
+  .content :global(a:hover) {
+    color: var(--bgs-1);
+  }
+
   .back-link {
     display: none;
     color: var(--accent-dark);
@@ -118,19 +203,6 @@ const { Content } = await entry.render();
     border: 1px solid var(--gray-800);
   }
 
-  .content :global(blockquote) {
-    font-size: var(--text-lg);
-    font-family: var(--font-brand);
-    font-style: italic;
-    font-weight: 400;
-    line-height: 1.5;
-    padding-inline-start: 1.5rem;
-    border-inline-start: 0.25rem solid var(--accent-dark);
-    color: var(--gray-0);
-    margin-top: 64px;
-    margin-bottom: 64px;
-  }
-
   .back-link,
   .content :global(a) {
     text-decoration: 1px solid underline transparent;
@@ -155,10 +227,6 @@ const { Content } = await entry.render();
     .details {
       flex-direction: row;
       gap: 2.5rem;
-    }
-
-    .content :global(blockquote) {
-      font-size: var(--text-lg);
     }
 
     .tags {

@@ -25,8 +25,11 @@
 
   --bgs-1: #002e40;
   --bgs-2: #ad9c70;
+  --text-color: #333; /* Define custom text color */
+  --bg-light: #f9f9f9; /* Define background color for blockquote */
+  --bg-light-hover: #e0e0e0; /* Hover background color */
 
-  --link-color: var(--accent-dark);
+  --link-color: var(--bgs-2);
 
   /* Gradients */
   --gradient-stop-1: var(--accent-light);
@@ -105,7 +108,7 @@
   --accent-subtle-overlay: hsla(281, 81%, 36%, 0.33);
   --accent-text-over: var(--gray-0);
 
-  --link-color: var(--accent-dark);
+  --link-color: var(--bgs-2);
 
   --gradient-stop-1: #4c11c6;
   --gradient-subtle: linear-gradient(
@@ -168,41 +171,11 @@ img {
 }
 
 a {
-  color: var(--link-color);
+  color: var(--bgs-1);
 }
 
-ul {
-  list-style-type: square; /* Custom bullet style */
-  padding: 0; /* Remove default padding */
-  margin: 0 0 0 20px; /* Add left margin to indent the list */
-}
-
-ul li {
-  position: relative;
-  padding-left: 8px; /* Space for the custom bullet */
-  margin-bottom: 8px; /* Space between list items */
-  font-size: 16px; /* Adjust font size if needed */
-}
-
-ul li::marker {
-  color: var(--bgs-2);
-}
-
-ol {
-  list-style-type: decimal; /* Custom bullet style */
-  padding: 0; /* Remove default padding */
-  margin: 0 0 0 20px; /* Add left margin to indent the list */
-}
-
-ol li {
-  position: relative;
-  padding-left: 8px; /* Space for the custom bullet */
-  margin-bottom: 8px; /* Space between list items */
-  font-size: 16px; /* Adjust font size if needed */
-}
-
-ol li::marker {
-  color: var(--bgs-2); /* Custom color for the list numbers */
+.link-color {
+	color: var(--link-color)
 }
 
 h1,
