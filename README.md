@@ -14,14 +14,14 @@ We encourage community contributions! You can share your own resources, case stu
 
 ## Add new Case Studies
 
-> Case studies showcase real-world examples of how UX (User Experience) methods have been successfully applied to address environmental data challenges. Your contributions should include a brief overview of the project, the specific UX methods used (e.g., design sprints, user research, prototyping), the outcomes achieved, and any key takeaways for others working on similar projects. Your case studies will inspire and guide others in the field, demonstrating the power of user-centered design.
+> Case studies showcase real-world examples of how UX (User Experience) methods have been successfully applied to address **environmental data** challenges. Your contributions should include a brief overview of the project, the specific UX methods used (e.g., design sprints, user research, prototyping), the outcomes achieved, and any key takeaways for others working on similar projects. Your case studies will inspire and guide others in the field, demonstrating the power of user-centered design.
 
 * Create a new markdown file in the [co-creation-toolkit/src/content/case-studies/](https://github.com/pautva/co-creation-toolkit/tree/main/src/content/case-studies) folder following the template structure.
 * Create a pull request into the main branch
 
 ## Add new tools to the UX Toolkit
 
-> Toolkit includes templates, guides, and documents that can help others implement effective UX practices in their environmental data projects. Think of things like persona templates, interview guides, product requirement documents, usability testing scripts, and any other tools you've found valuable. Your contributions will empower others to gather user insights, design user-friendly solutions, and create impactful environmental data products and services.
+> Toolkit includes templates, guides, and documents that can help others implement effective UX practices in their **environmental data** projects. Think of things like persona templates, interview guides, product requirement documents, usability testing scripts, and any other tools you've found valuable. Your contributions will empower others to gather user insights, design user-friendly solutions, and create impactful environmental data products and services.
 
 * Create a new markdown file in the [co-creation-toolkit/src/content/toolkit/](https://github.com/pautva/co-creation-toolkit/tree/main/src/content/toolkit) folder following the template structure.
 * Create a pull request into the main branch
