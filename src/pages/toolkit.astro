@@ -1,13 +1,15 @@
 ---
-// import { getCollection } from "astro:content";
+import { getCollection } from "astro:content";
 
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 import Hero from "../components/Hero.astro";
+import ToolkitPreview from "../components/ToolkitPreview.astro";
 
-// const projects = (await getCollection("case-studies")).sort(
-//   (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
-// );
+
+const toolkitTools = (await getCollection("toolkit")).sort(
+  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
 ---
 
 <BaseLayout title="Co-Creation Toolkit | BGS" description="A&D">
@@ -210,210 +212,20 @@ import Hero from "../components/Hero.astro";
                     >
                       User Research
                     </h3>
-                    <!-- <p>
-                      Methods and tools for understanding user needs, behaviors,
-                      and pain points.
-                    </p>
-                  </div>
-                  <img
-                    alt="Co-Creation Toolkit team illustration"
-                    width="100%"
-                    height="auto"
-                    class="py-8"
-                    src="/co-creation-toolkit/assets/illustrations/user-engagement.svg"
-                  /> -->
                 </header>
-                <!-- Grid -->
+
                 <div class="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
                   <!-- Card -->
-                  <a class="group rounded-xl overflow-hidden" href="#">
-                    <div class="sm:flex">
-                      <div
-                        class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-                      >
-                        <img
-                          class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                          src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                          alt="Image Description"
-                        />
-                      </div>
-
-                      <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                        <h3
-                          class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                        >
-                          Studio by Preline
-                        </h3>
-                        <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                          Produce professional, reliable streams easily
-                          leveraging Preline's innovative broadcast studio
-                        </p>
-                        <p
-                          class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                        >
-                          Read more
-                          <svg
-                            class="flex-shrink-0 size-4"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            ><path d="m9 18 6-6-6-6"></path></svg
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </a>
-                  <!-- End Card -->
-
-                  <!-- Card -->
-                  <a class="group rounded-xl overflow-hidden" href="#">
-                    <div class="sm:flex">
-                      <div
-                        class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-                      >
-                        <img
-                          class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                          src="https://images.unsplash.com/photo-1668906093328-99601a1aa584?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80"
-                          alt="Image Description"
-                        />
-                      </div>
-
-                      <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                        <h3
-                          class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                        >
-                          Onsite
-                        </h3>
-                        <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                          Optimize your in-person experience with best-in-class
-                          capabilities like badge printing and lead retrieval
-                        </p>
-                        <p
-                          class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                        >
-                          Read more
-                          <svg
-                            class="flex-shrink-0 size-4"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            ><path d="m9 18 6-6-6-6"></path></svg
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </a>
-                  <!-- End Card -->
-
-                  <!-- Card -->
-                  <a class="group rounded-xl overflow-hidden" href="#">
-                    <div class="sm:flex">
-                      <div
-                        class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-                      >
-                        <img
-                          class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                          src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
-                          alt="Image Description"
-                        />
-                      </div>
-
-                      <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                        <h3
-                          class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                        >
-                          The complete guide to OKRs
-                        </h3>
-                        <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                          How to make objectives and key results work for your
-                          company
-                        </p>
-                        <p
-                          class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                        >
-                          Read more
-                          <svg
-                            class="flex-shrink-0 size-4"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            ><path d="m9 18 6-6-6-6"></path></svg
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </a>
-                  <!-- End Card -->
-
-                  <!-- Card -->
-                  <a class="group rounded-xl overflow-hidden" href="#">
-                    <div class="sm:flex">
-                      <div
-                        class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-                      >
-                        <img
-                          class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                          alt="Image Description"
-                        />
-                      </div>
-
-                      <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                        <h3
-                          class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                        >
-                          People program models
-                        </h3>
-                        <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                          Six approaches to bringing your People strategy to
-                          life
-                        </p>
-                        <p
-                          class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                        >
-                          Read more
-                          <svg
-                            class="flex-shrink-0 size-4"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            ><path d="m9 18 6-6-6-6"></path></svg
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </a>
+                  {toolkitTools
+                    .filter(tool => tool.data.category === "User Research")
+                    .map((tool) => (
+                      <ToolkitPreview project ={tool} />
+                  ))}
                   <!-- End Card -->
                 </div>
-              </div>
 
-              <!-- End Browser Device -->
+              </div>
             </div>
-            <!-- End Devices -->
           </div>
 
           <div
@@ -435,208 +247,20 @@ import Hero from "../components/Hero.astro";
                   >
                     Design and Prototyping
                   </h3>
-                  <!-- <p>
-                    Techniques for visualising and creating interactive
-                    representations of data services and products.
-                  </p>
-                  <img
-                    alt="Co-Creation Toolkit team illustration"
-                    width="100%"
-                    height="auto"
-                    class="py-8"
-                    src="/co-creation-toolkit/assets/illustrations/choosing.svg"
-                  /> -->
                 </header>
-                <!-- Grid -->
+
                 <div class="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
                   <!-- Card -->
-                  <a class="group rounded-xl overflow-hidden" href="#">
-                    <div class="sm:flex">
-                      <div
-                        class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-                      >
-                        <img
-                          class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                          src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                          alt="Image Description"
-                        />
-                      </div>
-
-                      <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                        <h3
-                          class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                        >
-                          Studio by Preline
-                        </h3>
-                        <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                          Produce professional, reliable streams easily
-                          leveraging Preline's innovative broadcast studio
-                        </p>
-                        <p
-                          class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                        >
-                          Read more
-                          <svg
-                            class="flex-shrink-0 size-4"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            ><path d="m9 18 6-6-6-6"></path></svg
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </a>
-                  <!-- End Card -->
-
-                  <!-- Card -->
-                  <a class="group rounded-xl overflow-hidden" href="#">
-                    <div class="sm:flex">
-                      <div
-                        class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-                      >
-                        <img
-                          class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                          src="https://images.unsplash.com/photo-1668906093328-99601a1aa584?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80"
-                          alt="Image Description"
-                        />
-                      </div>
-
-                      <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                        <h3
-                          class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                        >
-                          Onsite
-                        </h3>
-                        <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                          Optimize your in-person experience with best-in-class
-                          capabilities like badge printing and lead retrieval
-                        </p>
-                        <p
-                          class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                        >
-                          Read more
-                          <svg
-                            class="flex-shrink-0 size-4"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            ><path d="m9 18 6-6-6-6"></path></svg
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </a>
-                  <!-- End Card -->
-
-                  <!-- Card -->
-                  <a class="group rounded-xl overflow-hidden" href="#">
-                    <div class="sm:flex">
-                      <div
-                        class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-                      >
-                        <img
-                          class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                          src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
-                          alt="Image Description"
-                        />
-                      </div>
-
-                      <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                        <h3
-                          class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                        >
-                          The complete guide to OKRs
-                        </h3>
-                        <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                          How to make objectives and key results work for your
-                          company
-                        </p>
-                        <p
-                          class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                        >
-                          Read more
-                          <svg
-                            class="flex-shrink-0 size-4"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            ><path d="m9 18 6-6-6-6"></path></svg
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </a>
-                  <!-- End Card -->
-
-                  <!-- Card -->
-                  <a class="group rounded-xl overflow-hidden" href="#">
-                    <div class="sm:flex">
-                      <div
-                        class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-                      >
-                        <img
-                          class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                          alt="Image Description"
-                        />
-                      </div>
-
-                      <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                        <h3
-                          class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                        >
-                          People program models
-                        </h3>
-                        <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                          Six approaches to bringing your People strategy to
-                          life
-                        </p>
-                        <p
-                          class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                        >
-                          Read more
-                          <svg
-                            class="flex-shrink-0 size-4"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            ><path d="m9 18 6-6-6-6"></path></svg
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </a>
+                  {toolkitTools
+                    .filter(tool => tool.data.category === "Design and Prototyping")
+                    .map((tool) => (
+                      <ToolkitPreview project ={tool} />
+                  ))}
                   <!-- End Card -->
                 </div>
+
               </div>
-              <!-- End -->
             </div>
-            <!-- End Devices -->
           </div>
 
           <div
@@ -658,206 +282,21 @@ import Hero from "../components/Hero.astro";
             >
               Evaluation and Testing
             </h3>
-            <!-- <p>
-              Approaches for gathering feedback and assessing the usability and
-              effectiveness of solutions.
-            </p>
-            <img
-              alt="Co-Creation Toolkit team illustration"
-              width="100%"
-              height="auto"
-              class="py-8"
-              src="/co-creation-toolkit/assets/illustrations/challenges.svg"
-            /> -->
           </header>
-          <!-- Grid -->
+
           <div class="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
             <!-- Card -->
-            <a class="group rounded-xl overflow-hidden" href="#">
-              <div class="sm:flex">
-                <div
-                  class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-                >
-                  <img
-                    class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                    alt="Image Description"
-                  />
-                </div>
-
-                <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                  <h3
-                    class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                  >
-                    Studio by Preline
-                  </h3>
-                  <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                    Produce professional, reliable streams easily leveraging
-                    Preline's innovative broadcast studio
-                  </p>
-                  <p
-                    class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                  >
-                    Read more
-                    <svg
-                      class="flex-shrink-0 size-4"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      ><path d="m9 18 6-6-6-6"></path></svg
-                    >
-                  </p>
-                </div>
-              </div>
-            </a>
-            <!-- End Card -->
-
-            <!-- Card -->
-            <a class="group rounded-xl overflow-hidden" href="#">
-              <div class="sm:flex">
-                <div
-                  class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-                >
-                  <img
-                    class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1668906093328-99601a1aa584?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80"
-                    alt="Image Description"
-                  />
-                </div>
-
-                <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                  <h3
-                    class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                  >
-                    Onsite
-                  </h3>
-                  <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                    Optimize your in-person experience with best-in-class
-                    capabilities like badge printing and lead retrieval
-                  </p>
-                  <p
-                    class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                  >
-                    Read more
-                    <svg
-                      class="flex-shrink-0 size-4"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      ><path d="m9 18 6-6-6-6"></path></svg
-                    >
-                  </p>
-                </div>
-              </div>
-            </a>
-            <!-- End Card -->
-
-            <!-- Card -->
-            <a class="group rounded-xl overflow-hidden" href="#">
-              <div class="sm:flex">
-                <div
-                  class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-                >
-                  <img
-                    class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
-                    alt="Image Description"
-                  />
-                </div>
-
-                <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                  <h3
-                    class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                  >
-                    The complete guide to OKRs
-                  </h3>
-                  <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                    How to make objectives and key results work for your company
-                  </p>
-                  <p
-                    class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                  >
-                    Read more
-                    <svg
-                      class="flex-shrink-0 size-4"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      ><path d="m9 18 6-6-6-6"></path></svg
-                    >
-                  </p>
-                </div>
-              </div>
-            </a>
-            <!-- End Card -->
-
-            <!-- Card -->
-            <a class="group rounded-xl overflow-hidden" href="#">
-              <div class="sm:flex">
-                <div
-                  class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-                >
-                  <img
-                    class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                    src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                    alt="Image Description"
-                  />
-                </div>
-
-                <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                  <h3
-                    class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                  >
-                    People program models
-                  </h3>
-                  <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                    Six approaches to bringing your People strategy to life
-                  </p>
-                  <p
-                    class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                  >
-                    Read more
-                    <svg
-                      class="flex-shrink-0 size-4"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      ><path d="m9 18 6-6-6-6"></path></svg
-                    >
-                  </p>
-                </div>
-              </div>
-            </a>
+            {toolkitTools
+              .filter(tool => tool.data.category === "Evaluation")
+              .map((tool) => (
+                <ToolkitPreview project ={tool} />
+            ))}
             <!-- End Card -->
           </div>
+
+
         </div>
-              <!-- End  -->
             </div>
-            <!-- End Devices -->
           </div>
 
           <div
@@ -879,202 +318,20 @@ import Hero from "../components/Hero.astro";
           >
             Collaboration and Engagement
           </h3>
-          <!-- <p>
-            Methods for facilitating collaboration and communication among
-            diverse stakeholders.
-          </p>
-          <img
-            alt="Co-Creation Toolkit team illustration"
-            width="100%"
-            height="auto"
-            class="py-8"
-            src="/co-creation-toolkit/assets/illustrations/requirements.svg"
-          /> -->
+
         </header>
-        <!-- Grid -->
+
         <div class="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
           <!-- Card -->
-          <a class="group rounded-xl overflow-hidden" href="#">
-            <div class="sm:flex">
-              <div
-                class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-              >
-                <img
-                  class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                  src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                  alt="Image Description"
-                />
-              </div>
-
-              <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                <h3
-                  class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                >
-                  Studio by Preline
-                </h3>
-                <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                  Produce professional, reliable streams easily leveraging
-                  Preline's innovative broadcast studio
-                </p>
-                <p
-                  class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                >
-                  Read more
-                  <svg
-                    class="flex-shrink-0 size-4"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    ><path d="m9 18 6-6-6-6"></path></svg
-                  >
-                </p>
-              </div>
-            </div>
-          </a>
-          <!-- End Card -->
-
-          <!-- Card -->
-          <a class="group rounded-xl overflow-hidden" href="#">
-            <div class="sm:flex">
-              <div
-                class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-              >
-                <img
-                  class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                  src="https://images.unsplash.com/photo-1668906093328-99601a1aa584?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80"
-                  alt="Image Description"
-                />
-              </div>
-
-              <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                <h3
-                  class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                >
-                  Onsite
-                </h3>
-                <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                  Optimize your in-person experience with best-in-class
-                  capabilities like badge printing and lead retrieval
-                </p>
-                <p
-                  class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                >
-                  Read more
-                  <svg
-                    class="flex-shrink-0 size-4"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    ><path d="m9 18 6-6-6-6"></path></svg
-                  >
-                </p>
-              </div>
-            </div>
-          </a>
-          <!-- End Card -->
-
-          <!-- Card -->
-          <a class="group rounded-xl overflow-hidden" href="#">
-            <div class="sm:flex">
-              <div
-                class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-              >
-                <img
-                  class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                  src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
-                  alt="Image Description"
-                />
-              </div>
-
-              <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                <h3
-                  class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                >
-                  The complete guide to OKRs
-                </h3>
-                <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                  How to make objectives and key results work for your company
-                </p>
-                <p
-                  class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                >
-                  Read more
-                  <svg
-                    class="flex-shrink-0 size-4"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    ><path d="m9 18 6-6-6-6"></path></svg
-                  >
-                </p>
-              </div>
-            </div>
-          </a>
-          <!-- End Card -->
-
-          <!-- Card -->
-          <a class="group rounded-xl overflow-hidden" href="#">
-            <div class="sm:flex">
-              <div
-                class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
-              >
-                <img
-                  class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                  alt="Image Description"
-                />
-              </div>
-
-              <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
-                <h3
-                  class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
-                >
-                  People program models
-                </h3>
-                <p class="mt-3 text-gray-600 dark:text-neutral-400">
-                  Six approaches to bringing your People strategy to life
-                </p>
-                <p
-                  class="mt-4 inline-flex items-center gap-x-1 text-blue-800 decoration-2 hover:underline font-medium"
-                >
-                  Read more
-                  <svg
-                    class="flex-shrink-0 size-4"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    ><path d="m9 18 6-6-6-6"></path></svg
-                  >
-                </p>
-              </div>
-            </div>
-          </a>
+          {toolkitTools
+            .filter(tool => tool.data.category === "Collaboration")
+            .map((tool) => (
+              <ToolkitPreview project ={tool} />
+          ))}
           <!-- End Card -->
         </div>
+
+
       </div>
               <!-- End  -->
             </div>

@@ -1,5 +1,5 @@
 ---
-title: Desing and Prot
+title: Eval 3
 publishDate: 2022-03-02 00:00:00
 # img: /co-creation-toolkit/assets/illustrations/nldp-farmer.svg
 img: /co-creation-toolkit/assets/case-studies/devon/devon-desing-sprint-plan.png
@@ -10,7 +10,7 @@ tags:
   - Prototyping
   - User Testing
 featured: true
-category: Design and Prototyping
+category: Evaluation
 ---
 
 After the prototype was developed, it was tested by a range of intended users to assess its usability and effectiveness. This case study briefly describes the activities of this design sprint, the outcomes and the lessons learned.
