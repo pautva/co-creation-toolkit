@@ -14,12 +14,12 @@ We encourage community contributions! You can share your own resources, case stu
 
 ## Add new Case Studies
 
-* Create a new markdown file in the `co-creation-toolkit/src/content/case-studies/` folder following the template structure.
+* Create a new markdown file in the [co-creation-toolkit/src/content/case-studies/](https://github.com/pautva/co-creation-toolkit/tree/main/src/content/case-studies) folder following the template structure.
 * Create a pull request into the main branch
 
 ## Add new tools to the UX Toolkit
 
-* Create a new markdown file in the `co-creation-toolkit/src/content/toolkit/` folder following the template structure.
+* Create a new markdown file in the [co-creation-toolkit/src/content/toolkit/](https://github.com/pautva/co-creation-toolkit/tree/main/src/content/toolkit) folder following the template structure.
 * Create a pull request into the main branch
 
 ## Markdown Cheat Sheet
