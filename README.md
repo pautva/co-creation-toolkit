@@ -18,10 +18,10 @@ We encourage community contributions! You can share your own resources, case stu
 
 * Create a new markdown file in the [co-creation-toolkit/src/content/case-studies/](https://github.com/pautva/co-creation-toolkit/tree/main/src/content/case-studies) folder following the template structure.
 * Specify the [category](https://pautva.github.io/co-creation-toolkit/toolkit/) under which the method/tool should be shown in the markdown file: 
-    * "User Research"
-    * "Design and Prototyping"
-    * "Evaluation"
-    * "Collaboration"
+    * **User Research**
+    * **Design and Prototyping**
+    * **Evaluation**
+    * **Collaboration**
 * Add images and other assets to the Case Studies Assets folder (https://github.com/pautva/co-creation-toolkit/tree/main/static/assets/case-studies)
 * Create a pull request into the main branch
 
