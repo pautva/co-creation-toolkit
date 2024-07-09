@@ -11,6 +11,7 @@
 
   <div class="ag-format-container">
     <div class="ag-courses_box">
+      <!-- wireframes -->
       <div class="ag-courses_item">
         <a
           href="https://britishgeologicalsurvey.github.io/design-guide-for-geospatial-data-portals/#/main-content/introduction"
@@ -31,6 +32,27 @@
         </a>
       </div>
 
+      <!-- DSTS -->
+      <div class="ag-courses_item">
+        <a
+          href="https://drive.google.com/file/d/1HyczxRNE2pCbw3n1ayYcHkmghjvrATqc/view"
+          class="ag-courses-item_link"
+        >
+          <div class="ag-courses-item_bg"></div>
+
+          <div class="ag-courses-item_title">
+            Best Practices for Decision Support Tools
+          </div>
+
+          <div class="ag-courses-item_date-box">
+            Best practices and guidelines for creating effective decision
+            support tools (DSTs).
+            <!-- <span class="ag-courses-item_date"> 22.01.2024</span> -->
+          </div>
+        </a>
+      </div>
+
+      <!-- Personas -->
       <div class="ag-courses_item">
         <a
           href="https://britishgeologicalsurvey.github.io/ui-ux/personas/"
@@ -48,24 +70,25 @@
         </a>
       </div>
 
+      <!-- Turing Way -->
       <div class="ag-courses_item">
         <a
-          href="https://drive.google.com/file/d/1HyczxRNE2pCbw3n1ayYcHkmghjvrATqc/view"
+          href="https://book.the-turing-way.org/#"
           class="ag-courses-item_link"
         >
           <div class="ag-courses-item_bg"></div>
 
-          <div class="ag-courses-item_title">
-            Best Practices for Decision Support Tools
-          </div>
+          <div class="ag-courses-item_title">Turing Way Handbook</div>
 
           <div class="ag-courses-item_date-box">
-            Best practices and guidelines for creating effective decision support tools (DSTs).
+            The Turing Way is a handbook to reproducible, ethical and
+            collaborative data science.
             <!-- <span class="ag-courses-item_date"> 22.01.2024</span> -->
           </div>
         </a>
       </div>
 
+      <!-- Nielsen Norman -->
       <div class="ag-courses_item">
         <a
           href="https://drive.google.com/file/d/1HyczxRNE2pCbw3n1ayYcHkmghjvrATqc/view"
@@ -73,30 +96,12 @@
         >
           <div class="ag-courses-item_bg"></div>
 
-          <div class="ag-courses-item_title">
-            Best Practices for Decision Support Tools
-          </div>
+          <div class="ag-courses-item_title">Nielsen Norman Group</div>
 
           <div class="ag-courses-item_date-box">
-            Best practices and guidelines for creating effective decision support tools (DSTs).
-            <!-- <span class="ag-courses-item_date"> 22.01.2024</span> -->
-          </div>
-        </a>
-      </div>
-
-      <div class="ag-courses_item">
-        <a
-          href="https://drive.google.com/file/d/1HyczxRNE2pCbw3n1ayYcHkmghjvrATqc/view"
-          class="ag-courses-item_link"
-        >
-          <div class="ag-courses-item_bg"></div>
-
-          <div class="ag-courses-item_title">
-            Best Practices for Decision Support Tools
-          </div>
-
-          <div class="ag-courses-item_date-box">
-            Best practices and guidelines for creating effective decision support tools (DSTs).
+            The Nielsen Norman Group website is a valuable resource for UX
+            professionals, offering guidance and training to improve the user
+            experience of products through co-design.
             <!-- <span class="ag-courses-item_date"> 22.01.2024</span> -->
           </div>
         </a>
@@ -122,32 +127,30 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 32px;
-
     padding: 50px 0;
   }
   .ag-courses_item {
-    -ms-flex-preferred-size: calc(33.33333% - 30px);
-    flex-basis: calc(33.33333% - 30px);
-
-    /* margin: 0 15px 30px; */
-
+    /* -ms-flex-preferred-size: calc(33.33333% - 30px);
+    flex-basis: calc(33.33333% - 30px); */
     overflow: hidden;
-
     border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 300px;
   }
   .ag-courses-item_link {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     padding: 30px 20px;
     background-color: #121212;
-
     overflow: hidden;
-
     position: relative;
   }
   .ag-courses-item_link:hover,
