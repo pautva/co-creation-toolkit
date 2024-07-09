@@ -5,18 +5,19 @@ import Partners from "../components/Partners.astro";
 import CoDesignDefinition from "../components/CoDesignDefinition.astro";
 import WhyDidWeCreateThis from "../components/WhyDidWeCreateThis.astro";
 import FAQ from "../components/FAQ.astro";
+import CoDesignPrinciples from "../components/CoDesignPrinciples.astro";
 ---
 
 <BaseLayout
-  title="About | Jeanine White"
-  description="About Jeanine White Lorem Ipsum"
+  title="About | Co-Creation Toolkit"
+  description="About Co-Creation Toolkit"
 >
   <div class="stack gap-20">
     <main class="wrapper about">
       <!-- Hero -->
       <div class="relative overflow-hidden">
         <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="max-w-2xl text-center mx-auto ">
+          <div class="max-w-2xl text-center mx-auto">
             <h1
               class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white"
             >
@@ -38,9 +39,11 @@ import FAQ from "../components/FAQ.astro";
 
         <WhyDidWeCreateThis />
 
+        <CoDesignPrinciples />
+
         <Partners />
 
-		<FAQ />
+        <FAQ />
 
       </div>
     </main>
