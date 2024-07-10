@@ -202,7 +202,12 @@ const { Content } = await entry.render();
     /* box-shadow: var(--shadow-sm);
     background: var(--gradient-subtle);
     border: 1px solid var(--gray-800); */
-    margin-bottom: 8px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .content :global(p:has(img)) {
+    text-align: center;
   }
 
   .back-link,

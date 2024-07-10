@@ -4,7 +4,7 @@ publishDate: 2024-07-10 00:00:00
 # img: /co-creation-toolkit/assets/illustrations/nldp-farmer.svg
 img: /co-creation-toolkit/assets/case-studies/covers/cs-cover-20.png
 img_alt: Screenshots of Micronutrient Action Policy Support (MAPS) tool
-description: A guidance document to improve the design and development of decision support tools (DSTs) within our organization.
+description: A guidance document to improve the design and development of decision support tools (DSTs) within our organisation.
 tags:
  - Decision Support Tools
  - Best Practices
@@ -39,7 +39,6 @@ We employed a mixed-methods approach to create this guidance. A comprehensive qu
 
 ![Image](/co-creation-toolkit/assets/case-studies/dsts/spread-5.png)
 *Screenshot from the brochure*
-
 
 ## Links
 
