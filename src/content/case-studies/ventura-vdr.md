@@ -1,8 +1,8 @@
 ---
 title: Ventura Virtual Decision Room 
-publishDate: 2020-03-02 00:00:00
+publishDate: 2024-07-09 00:00:00
 # img: /co-creation-toolkit/assets/illustrations/shopping.svg
-img: /co-creation-toolkit/assets/case-studies/covers/cs-cover-08.png
+img: /co-creation-toolkit/assets/case-studies/covers/cs-cover-11.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   We prototyped a tool to evaluate water neutrality for urban growth scenarios with input from local government, community, and industry.

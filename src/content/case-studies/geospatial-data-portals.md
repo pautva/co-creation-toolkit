@@ -1,7 +1,7 @@
 ---
 title: Designing Geospatial Data Portals 
-publishDate: 2019-10-02 00:00:00
-img: /co-creation-toolkit/assets/case-studies/covers/cs-cover-07.png
+publishDate: 2024-07-09 00:00:00
+img: /co-creation-toolkit/assets/case-studies/covers/cs-cover-12.png
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
   We researched geospatial data users and designed guidelines to create user-friendly portals that make data easy to find and use for better decision-making.
@@ -9,7 +9,7 @@ tags:
   - User Journey Mapping
   - Best Practices
   - Geospatial Data
-featured: false
+featured: true
 ---
 
 ## Overview

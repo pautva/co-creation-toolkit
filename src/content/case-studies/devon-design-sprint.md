@@ -1,6 +1,6 @@
 ---
 title: Devon Design Sprint 
-publishDate: 2022-03-02 00:00:00
+publishDate: 2024-07-10 00:00:00
 # img: /co-creation-toolkit/assets/illustrations/nldp-farmer.svg
 img: /co-creation-toolkit/assets/case-studies/covers/cs-cover-02.png
 img_alt: Illustration of land use
