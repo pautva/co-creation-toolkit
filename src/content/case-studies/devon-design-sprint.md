@@ -15,13 +15,17 @@ featured: true
 
 > Over the course of five days, a group of stakeholders involved in the land use decision-making process in Devon worked together as a team to create a prototype decision support tool aimed at facilitating carbon-focused land use decisions in the rural environment. After the prototype was developed, it was tested by a range of intended users to assess its usability and effectiveness.
 
+![image](/co-creation-toolkit/assets/case-studies/devon/nldp-sprint-pic-1.png)
+*Capturing notes during the design sprint.*
+
+This case study briefly describes the activities of this design sprint, the outcomes and the lessons learned.
+
 ## Activities
 
 We set out to investigate how data and digital tools can help consider and understand the effects that land use decisions have on carbon sequestration and storage in the context of soil, woodland/ forestry and peatlands.
 
 ![image](/co-creation-toolkit/assets/case-studies/devon/nldp-sprint-pic-3.png)
 *The user journey for two key user groups - Land Managers and Land User Influences*
-
 
 We ran the design sprint for a full five days. This was necessary due the complex nature of the challenge being solved. For less demanding challenges and stakeholders with prior design sprint experience, a shorter sprint of 2 or 3 days is also viable.
 
@@ -47,9 +51,13 @@ On day five of the design sprint, user testing was conducted to validate the pro
 
 ## Lessons learned
 
-The design sprint and prototype led to an understanding that a suite of spatially explicit data and decision support tools is integral to a land use framework.
+The design sprint and prototype led to an understanding that a suite of spatially explicit data and decision support tools is integral to a land use framework. 
 
-Having access to easy-to-use data is a critical part of having informed discussions around land use change. A shared evidence base is central to ensuring that leaders and local stakeholders are able to understand and communicate the benefits, trade-offs and shared outcomes possible from land use decision making.
+Having access to easy-to-use data is a critical part of having informed discussions around land use change. **A shared evidence base is central to ensuring that leaders and local stakeholders are able to understand and communicate** the benefits, trade-offs and shared outcomes possible from land use decision making.
+
+It is key that tools should include the multifunctional benefits and competing pressures of land use change to give a holistic picture of land use opportunities and constraints. Stakeholders want information presented in a clear and easy to interpret way which can **help them understand business risks and make better use of financial opportunities** that would support land use change.
+
+The group also came to an understanding that design sprints are **an effective way to bring together diverse stakeholders** with common goals to co-design new solutions. Design sprints and similar activities can **foster a strong sense of community among stakeholders** engaged in or impacted by land use decision making.
 
 ![image](/co-creation-toolkit/assets/case-studies/devon/nldp-illustration.png)
 
