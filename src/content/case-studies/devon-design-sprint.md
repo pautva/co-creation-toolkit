@@ -8,10 +8,12 @@ description: |
   In a five-day workshop, Devon stakeholders teamed up to prototype a land use decision tool with a focus on carbon impact.
 tags:
   - Design Sprint
-  - Prototyping
+  - Co-Creation
   - User Testing
 featured: true
 ---
+
+## Overview
 
 > Over the course of five days, a group of stakeholders involved in the land use decision-making process in Devon worked together as a team to create a prototype decision support tool aimed at facilitating carbon-focused land use decisions in the rural environment. After the prototype was developed, it was tested by a range of intended users to assess its usability and effectiveness.
 

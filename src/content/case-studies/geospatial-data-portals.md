@@ -6,16 +6,17 @@ img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
   We researched geospatial data users and designed guidelines to create user-friendly portals that make data easy to find and use for better decision-making.
 tags:
-  - User Research
-  - Design Guidelines
+  - User Journey Mapping
   - Best Practices
   - Geospatial Data
 featured: false
 ---
 
-In 2018 user researchers and designers across the Geo6 came together to explore the needs and frustrations of geospatial data portal users.
+## Overview
 
-Throughout 2019 and 2020 we collaborated with Ordnance Survey on the guidance and best practices to address the pain points identified by the user research conducted for the Data Discoverability 2 project.
+> User researchers and designers across the Geo6 came together to explore the needs and frustrations of geospatial data portal users.
+
+We collaborated with Ordnance Survey on the guidance and best practices to address the pain points identified by the user research conducted for the Data Discoverability 2 project.
 
 Below is a brief summary of the work carried for these two projects and the results achieved.
 
@@ -24,8 +25,6 @@ Below is a brief summary of the work carried for these two projects and the resu
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8hHPAVvmTSg?si=hy5Je5fVXisT9wrN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The purpose of this work stream was to evaluate the needs of data portal users when discovering and accessing spatial data. The workstream evaluated how well those needs are met. It made recommendations of ways to enhance the data portal landscape in the UK to improve the success rate of users locating and accessing spatial data.
-
-* [Read the Data Discoverabilty 2 report](http://digital-planning.glpages.ad.nerc.ac.uk/design-toolkit/assets/docs/reports/data-portals-report-final-draft-to-os-10-01-20.docx)
 
 ### Archetypes
 
@@ -39,12 +38,14 @@ We also created 6 user archetypes to summarise the user research findings. Those
 * Non-geo data engineer
 
 ![Geospatial data portal illustration](/co-creation-toolkit/assets/case-studies/geospatial/Persona-Investigator.png)
+*Investigator Archetype*
 
 ### User Journeys
 
 User journey maps are widely used in UX to visualise how individuals complete specific tasks. These maps can take various formats and layouts, focusing on users’ thoughts, emotions, frustrations, and opportunities throughout the process to enhance usability and enjoyment. Four user journeys were crafted for spatial data experts, data experts, investigators, and solution innovators, who are active users of data portals. However, strategic leads and storytellers/consumers, who only interact with geospatial data indirectly, did not require user journeys for their use cases.
 
 ![Geospatial data portal illustration](/co-creation-toolkit/assets/case-studies/geospatial/user-journey-data-expert.png)
+*User Journey for discovering, accessing and using geospatial data portals.*
 
 Each journey map consists of:
 
@@ -74,14 +75,10 @@ The next stage – data evaluation and use – might also be done with the help 
 
 ## Data Discoverability 3
 
-![Geospatial data portal illustration](/co-creation-toolkit/assets/case-studies/geospatial/geospatial-wireframes-v2.png)
-
 During the DD3 project, we collaborated with Ordnance Survey’s UX team to develop design guidelines, recommendations, and wireframes specifically for geospatial portal developers and designers.
 
 The recommendations are derived from user research findings from previous workstreams. Carl Watson has published a blog post detailing this work:
 
+## Links
+
 * [The secret to great geospatial data portals: start with the user](https://geospatialcommission.blog.gov.uk/2021/09/10/the-secret-to-great-geospatial-data-portals-start-with-the-user/)
-
-
-
-

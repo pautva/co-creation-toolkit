@@ -7,15 +7,18 @@ img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   We prototyped a tool to evaluate water neutrality for urban growth scenarios with input from local government, community, and industry.
 tags:
-  - Design
-  - User Research
-  - Prototyping
+  - User-Centered Design
+  - Stakeholder Collaboration
+  - ProtoIterative Prototypingtyping
 featured: false
 ---
 
-## Level-two heading
+## Overview
 
-> VDR will allow collaboration between key partners in Greater Manchester and it will support evidence-led water neutral place making
+> Our challenge in this project was to prototype a decision support tool which would enable local government, the local community and other relevant partners such as regulators and water utility companies to collaboratively plan and evaluate the environmental sustainability of urban growth planning scenarios using co-designed water neutrality indicators.
+
+![Image](/co-creation-toolkit/assets/case-studies/vdr/vdr-screenshots.png)
+*VDR tool will allow users to explore business as usual scenario, create new scenarios and view/edit model settings.*
 
 ## Approach
 
@@ -49,7 +52,7 @@ We also talked to users to better understand their needs and priorities. These d
 
 We also identified key goals of each user, which helped us prioritise product features in prototyping and development stages.
 
-The key users and their goals were:
+#### The key users and their goals were:
 
 * **Greater Manchester Combined Authority** - Explore VDR to inform the setting of rules needed to reach 2050 goal on managing flood risk
 * **United Utilities** - Explore VDR to inform the setting of rules needed to reach 2050 goal on surface water to sewer standards
@@ -83,8 +86,8 @@ If this proves to be a successful tool, it could also be applied to other region
 
 ## Lessons learned
 
-The primary obstacle in this project was fostering efficient communication among user researchers, scientists, and developers. During various phases of the project, conflicts arose regarding the prioritisation of features in the minimum viable product. To resolve these disputes, we consistently reminded ourselves of the needs of the key users and the issues they were attempting to address. Our goal was to enhance collaboration among the “trilateral” group and to enable them to make data-driven decisions without adjusting the mathematical models supporting this tool. Ideas that did not align with these objective were de-prioritized.
+The primary obstacle in this project was fostering efficient communication among user researchers, scientists, and developers. During various phases of the project, conflicts arose regarding the prioritisation of features in the minimum viable product. To resolve these disputes, we **consistently reminded ourselves of the needs of the key users and the issues they were attempting to address**. Our goal was to enhance collaboration among the “trilateral” group and to enable them to make data-driven decisions without adjusting the mathematical models supporting this tool. Ideas that did not align with these objective were de-prioritised.
 
 ## Links
 
-[Virtual Decision Room Prototype](https://www.figma.com/proto/wuSq4FOCmysexz3H2ipNOi/VDR-Ventura-Prototype-%2B-BGS-Design-System?page-id=474%3A5982&node-id=2071%3A36047&viewport=1001%2C-438%2C0.11&scaling=contain&starting-point-node-id=2071%3A36047)
+* [Virtual Decision Room Prototype](https://www.figma.com/proto/wuSq4FOCmysexz3H2ipNOi/VDR-Ventura-Prototype-%2B-BGS-Design-System?page-id=474%3A5982&node-id=2071%3A36047&viewport=1001%2C-438%2C0.11&scaling=contain&starting-point-node-id=2071%3A36047)
