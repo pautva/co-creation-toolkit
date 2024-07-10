@@ -109,7 +109,8 @@ const { Content } = await entry.render();
     background-color: var(--bg-light); /* Background color */
     font-style: italic; /* Italicize the text */
     position: relative; /* Ensure proper stacking context */
-    quotes: "“" "”" "‘" "’"; /* Custom quote marks */
+    quotes: "" "";
+    /* quotes: "“" "”" "‘" "’"; */
     font-size: var(--text-lg);
     margin-top: 32px;
     margin-bottom: 32px;
@@ -198,9 +199,9 @@ const { Content } = await entry.render();
 
   .content :global(img) {
     border-radius: 0.5rem;
-    box-shadow: var(--shadow-sm);
+    /* box-shadow: var(--shadow-sm);
     background: var(--gradient-subtle);
-    border: 1px solid var(--gray-800);
+    border: 1px solid var(--gray-800); */
     margin-bottom: 8px;
   }
 
