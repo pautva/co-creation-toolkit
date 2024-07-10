@@ -1,5 +1,5 @@
 ---
-title: Prototyping
+title: Creating Prototypes
 publishDate: 2022-03-02 00:00:00
 # img: /co-creation-toolkit/assets/illustrations/nldp-farmer.svg
 img: /co-creation-toolkit/assets/toolkit/covers/toolkit-cover-01.svg
