@@ -1,6 +1,6 @@
 ---
 title: Best Practices for Decision Support Tools
-publishDate: 2024-07-10 00:00:00
+publishDate: 2024-07-08 00:00:00
 # img: /co-creation-toolkit/assets/illustrations/nldp-farmer.svg
 img: /co-creation-toolkit/assets/case-studies/covers/cs-cover-20.png
 img_alt: Screenshots of Micronutrient Action Policy Support (MAPS) tool
@@ -9,7 +9,7 @@ tags:
  - Decision Support Tools
  - Best Practices
  - Design Guidelines
-featured: true
+featured: false
 ---
 
 ## Overview
@@ -37,7 +37,7 @@ We employed a mixed-methods approach to create this guidance. A comprehensive qu
 3. **Balancing Scientific Rigour with Usability**: The most impactful decision support tools strike a balance between scientific accuracy and usability. Consider ways to communicate complex information clearly and simply, using visualisations, examples, and plain language explanations. Working with UX specialists can prove invaluable in this realm.
 4. **The Power of User-Centered Design**: Many successful projects emphasised the importance of early and continuous user engagement. Understanding the target audience's needs, workflows, and technical capabilities is essential. Investing time in user research upfront prevents creating tools that don't align with real-world use cases or that are too complex to be adopted.
 
-![Image](/co-creation-toolkit/assets/case-studies/dsts/spread-5.png)
+![Image](/co-creation-toolkit/assets/case-studies/dsts/Spread-5.png)
 *Screenshot from the brochure*
 
 ## Links
