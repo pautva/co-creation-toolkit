@@ -85,7 +85,7 @@ const latestTools = (await getCollection("toolkit"))
   <div class="text-center pt-4">
     <a href="/co-creation-toolkit/toolkit/">
       <button
-        class="button-colour text-white px-4 py-2 rounded-md shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+        class="button-colour text-white px-4 py-2 rounded-md shadow"
         >Go to Toolkit</button
       >
     </a>
@@ -96,5 +96,8 @@ const latestTools = (await getCollection("toolkit"))
 <style>
   .button-colour {
     background-color: var(--bgs-2);
+  }
+  .button-colour:hover {
+    background-color: var(--bgs-2-button-hover);
   }
 </style>
