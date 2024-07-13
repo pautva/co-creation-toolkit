@@ -217,9 +217,9 @@ const toolkitTools = (await getCollection("toolkit")).sort(
                 <div class="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
                   <!-- Card -->
                   {toolkitTools
-                    .filter(tool => tool.data.category === "User Research")
+                    .filter(tool => tool.data.category.includes("User Research"))
                     .map((tool) => (
-                      <ToolkitPreview project ={tool} />
+                      <ToolkitPreview project = {tool} />
                   ))}
                   <!-- End Card -->
                 </div>
@@ -252,9 +252,9 @@ const toolkitTools = (await getCollection("toolkit")).sort(
                 <div class="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
                   <!-- Card -->
                   {toolkitTools
-                    .filter(tool => tool.data.category === "Design and Prototyping")
+                    .filter(tool => tool.data.category.includes("Design and Prototyping"))
                     .map((tool) => (
-                      <ToolkitPreview project ={tool} />
+                      <ToolkitPreview project = {tool} />
                   ))}
                   <!-- End Card -->
                 </div>
@@ -287,9 +287,9 @@ const toolkitTools = (await getCollection("toolkit")).sort(
           <div class="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
             <!-- Card -->
             {toolkitTools
-              .filter(tool => tool.data.category === "Evaluation")
+              .filter(tool => tool.data.category.includes("Evaluation"))
               .map((tool) => (
-                <ToolkitPreview project ={tool} />
+                <ToolkitPreview project = {tool} />
             ))}
             <!-- End Card -->
           </div>
@@ -324,9 +324,9 @@ const toolkitTools = (await getCollection("toolkit")).sort(
         <div class="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
           <!-- Card -->
           {toolkitTools
-            .filter(tool => tool.data.category === "Collaboration")
+            .filter(tool => tool.data.category.includes("Collaboration"))
             .map((tool) => (
-              <ToolkitPreview project ={tool} />
+              <ToolkitPreview project = {tool} />
           ))}
           <!-- End Card -->
         </div>

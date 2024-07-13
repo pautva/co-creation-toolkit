@@ -2,7 +2,7 @@
 title: Best Practices for Decision Support Tools
 publishDate: 2024-07-10 00:00:00
 # img: /co-creation-toolkit/assets/illustrations/nldp-farmer.svg
-img: /co-creation-toolkit/assets/case-studies/covers/cs-cover-20.png
+img: /co-creation-toolkit/assets/toolkit/covers/toolkit-cover-12.svg
 img_alt: Screenshots of Micronutrient Action Policy Support (MAPS) tool
 description: A guidance document to improve the design and development of decision support tools (DSTs) within our organisation.
 tags:
@@ -10,6 +10,7 @@ tags:
  - Best Practices
  - Design Guidelines
 featured: true
+category: User Research, Design and Prototyping
 ---
 
 ## Overview
@@ -42,5 +43,6 @@ We employed a mixed-methods approach to create this guidance. A comprehensive qu
 
 ## Links
 
-* This guidance is available as online documentation on our internal network.
-* A printable brochure summarising key findings and providing further resources is also available.
+* [PDF Brochure for Best Practices for Decision Support Tools](https://drive.google.com/file/d/1HyczxRNE2pCbw3n1ayYcHkmghjvrATqc/view?usp=sharing)
+* This guidance is available as online documentation on our internal network
+
