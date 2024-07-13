@@ -1,6 +1,6 @@
 ---
 title: Creating Prototypes
-publishDate: 2022-03-02 00:00:00
+publishDate: 2024-07-09 00:00:00
 # img: /co-creation-toolkit/assets/illustrations/nldp-farmer.svg
 img: /co-creation-toolkit/assets/toolkit/covers/toolkit-cover-01.svg
 img_alt: Screnshot of a figma prototype
