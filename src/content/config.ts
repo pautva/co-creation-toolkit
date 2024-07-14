@@ -11,6 +11,7 @@ export const collections = {
 			img: z.string(),
 			img_alt: z.string().optional(),
 			featured: z.boolean(),
+			organisation: z.string().optional(),
 			category: z.string().optional(),
 		}),
 	}),

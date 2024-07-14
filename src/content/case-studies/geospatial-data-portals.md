@@ -9,7 +9,8 @@ tags:
   - User Journey Mapping
   - Best Practices
   - Geospatial Data
-featured: true
+featured: false
+organisation: BGS
 ---
 
 ## Overview

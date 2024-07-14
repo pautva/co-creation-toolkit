@@ -23,9 +23,16 @@ const { data, slug } = Astro.props.project;
         </span>
       )
     }
+    {
+      data.organisation && (
+        <span class="absolute top-0 start-0 rounded-ss-lg rounded-ee-lg text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-neutral-900">
+          { data.organisation }
+        </span>
+      )
+    }
   </div>
 
-  <div class="mt-1">
+  <div class="mt-2">
     <h3
       class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white"
     >
