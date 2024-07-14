@@ -1,6 +1,6 @@
 ---
 title: Planning User Research
-publishDate: 2022-03-02 00:00:00
+publishDate: 2024-07-10 00:00:00
 # img: /co-creation-toolkit/assets/illustrations/nldp-farmer.svg
 img: /co-creation-toolkit/assets/toolkit/covers/toolkit-cover-08.svg
 img_alt: User Research Plan
@@ -9,8 +9,8 @@ description: |
 tags:
   - User Research
   - Interviews
-featured: true
 category: User Research
+featured: false
 ---
 
 ## Overview

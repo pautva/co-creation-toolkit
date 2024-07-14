@@ -145,6 +145,10 @@
   content: url("/co-creation-toolkit/assets/ad-illustration-dark.svg");
 }
 
+.bg-bgs-2 {
+  background: var(--bgs-2);
+}
+
 html,
 body {
   height: 100%;

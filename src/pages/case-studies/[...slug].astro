@@ -46,11 +46,20 @@ const { Content } = await entry.render();
       </header>
       <main class="wrapper">
         <div class="stack gap-10 content">
-          {
-            entry.data.img && (
-              <img src={entry.data.img} alt={entry.data.img_alt || ""} />
-            )
-          }
+          <div class="relative">
+            {
+              entry.data.img && (
+                <img src={entry.data.img} alt={entry.data.img_alt || ""} />
+              )
+            }
+            {
+              entry.data.organisation && (
+                <span class="absolute top-12 start-0 rounded-ss-md rounded-ee-md text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-neutral-900">
+                  {entry.data.organisation}
+                </span>
+              )
+            }
+          </div>
           <div class="content">
             <Content />
           </div>
@@ -138,14 +147,14 @@ const { Content } = await entry.render();
     vertical-align: -0.4em; /* Align quote mark vertically */
   }
 
-   /* Styling for links */
-   .content :global(a) {
+  /* Styling for links */
+  .content :global(a) {
     display: inline-block;
     color: var(--link-color);
     text-decoration: none;
     transition: background-color 0.3s ease;
     color: var(--bgs-2);
-    
+
     text-decoration: underline !important; /* Add underline on hover */
   }
 

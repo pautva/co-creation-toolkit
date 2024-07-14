@@ -3,5 +3,8 @@
         "activityBar.background": "#3A2449",
         "titleBar.activeBackground": "#523367",
         "titleBar.activeForeground": "#FCFBFD"
-    }
+    },
+    "cSpell.words": [
+        "organisation"
+    ]
 }
