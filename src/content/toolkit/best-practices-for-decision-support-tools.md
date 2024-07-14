@@ -9,8 +9,8 @@ tags:
  - Decision Support Tools
  - Best Practices
  - Design Guidelines
-featured: true
 category: User Research, Design and Prototyping
+featured: true
 ---
 
 ## Overview

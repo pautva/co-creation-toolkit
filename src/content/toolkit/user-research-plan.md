@@ -9,8 +9,8 @@ description: |
 tags:
   - User Research
   - Interviews
-featured: true
 category: User Research
+featured: false
 ---
 
 ## Overview
