@@ -10,7 +10,7 @@ tags:
  - Best Practices
  - Design Guidelines
 category: User Research, Design and Prototyping
-featured: true
+featured: false
 ---
 
 ## Overview
