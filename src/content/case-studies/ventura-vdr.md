@@ -9,7 +9,7 @@ description: |
 tags:
   - User-Centered Design
   - Stakeholder Collaboration
-  - ProtoIterative Prototypingtyping
+  - Prototyping
 featured: false
 organisation: BGS
 ---
