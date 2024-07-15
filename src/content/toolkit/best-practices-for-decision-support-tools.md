@@ -9,7 +9,7 @@ tags:
  - Decision Support Tools
  - Best Practices
  - Design Guidelines
-category: User Research, Design and Prototyping
+category: Collaboration
 featured: false
 ---
 
