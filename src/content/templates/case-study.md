@@ -16,7 +16,7 @@ featured: false
 
 > Intro sentence
 
-![Image](/co-creation-toolkit/assets/case-studies/case-study-name/iamge-name.png)
+![Image](/co-creation-toolkit/assets/case-studies/case-study-name/image-name.png)
 *Image description*
 
 ### heading 1
