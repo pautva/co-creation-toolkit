@@ -36,7 +36,7 @@ organisation: BGS
 ![Image](/co-creation-toolkit/assets/case-studies/personas-land-insight/personas-land-insight-02.png)
 *Organisations that rely on the environments for their operations*
 
- These are just two examples of the personas created for the Land InSight project. A more comprehensive list of personas can be found at the [link below](#links).
+ These are just two examples of the personas created for the Land InSight project. A more comprehensive list of personas can be found below.
 
 ## Links
 
