@@ -67,5 +67,5 @@ _Organisations that rely on the environments for their operations_
 ## Links
 
 - [Download Persona Template](/co-creation-toolkit/assets/toolkit/personas/persona-template.png)
-- [Creating Personas for Land InSight Project](../case-studies/personas-land-insight)
+- [Creating Personas for Land InSight Project](/co-creation-toolkit/case-studies/personas-land-insight/)
 - [Personas in Product Design](https://britishgeologicalsurvey.github.io/ui-ux/personas/)
