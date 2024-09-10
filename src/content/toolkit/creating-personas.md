@@ -1,5 +1,5 @@
 ---
-title: Personas
+title: Creating Personas
 publishDate: 2024-10-09 00:00:00
 img: /co-creation-toolkit/assets/toolkit/covers/toolkit-cover-14.svg
 img_alt: Cover description
