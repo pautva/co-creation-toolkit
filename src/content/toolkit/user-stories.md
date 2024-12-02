@@ -61,6 +61,9 @@ These define how you know the user story has been successfully delivered. They a
 - **Conduct user research:** Use methods like interviews, surveys, and observation to understand your target audience's needs, goals, and pain points.
 - **Create user personas:** Develop fictional representations of your ideal users based on your research. This helps you keep the user in mind throughout the process.
 
+![Image](/co-creation-toolkit/assets/toolkit/user-stories/policy-maker-persona.png)
+*Persona example*
+
 #### Step 2: Define Epics
 
 - **Identify key features:** Determine the major functionalities your product needs to offer to meet user needs.
