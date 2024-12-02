@@ -6,6 +6,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/Hero.astro";
 import ToolkitPreview from "../components/ToolkitPreview.astro";
 import FAQ from "../components/FAQ.astro";
+import CoCreationMethodsList from "../components/CoCreationMethodsList.astro";
 
 const toolkitTools = (await getCollection("toolkit")).sort(
   (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
@@ -199,7 +200,7 @@ const toolkitTools = (await getCollection("toolkit")).sort(
             aria-labelledby="tabs-with-card-item-1"
           >
             <!-- Devices -->
-            <div class="max-w-[1140px] lg:pb-32 relative">
+            <div class="max-w-[1140px]  relative">
               <!-- Mobile Device -->
               <!-- Group 1-->
               <div
@@ -235,7 +236,7 @@ const toolkitTools = (await getCollection("toolkit")).sort(
             aria-labelledby="tabs-with-card-item-2"
           >
             <!-- Devices -->
-            <div class="max-w-[1140px] lg:pb-32 relative">
+            <div class="max-w-[1140px]  relative">
               <!-- start content -->
               <!-- Group 2-->
               <div
@@ -270,7 +271,7 @@ const toolkitTools = (await getCollection("toolkit")).sort(
             aria-labelledby="tabs-with-card-item-3"
           >
             <!-- Devices -->
-            <div class="max-w-[1140px] lg:pb-32 relative">
+            <div class="max-w-[1140px]  relative">
               <!-- start -->
         <!-- Group 3-->
         <div
@@ -306,7 +307,7 @@ const toolkitTools = (await getCollection("toolkit")).sort(
             aria-labelledby="tabs-with-card-item-5"
           >
             <!-- Devices -->
-            <div class="max-w-[1140px] lg:pb-32 relative">
+            <div class="max-w-[1140px]  relative">
               <!-- start -->
                        <!-- Group 5-->
         <div
@@ -343,6 +344,8 @@ const toolkitTools = (await getCollection("toolkit")).sort(
       <!-- End Features -->
 
     </main>
+
+    <!-- <CoCreationMethodsList /> -->
 
     <FAQ />
 
