@@ -1,9 +1,9 @@
 ---
-title: Creating User Stories for Environmental Data Services
+title: Creating User Stories for Environmental Data Products and Services
 publishDate: 2024-12-02 14:00:00
 img: /co-creation-toolkit/assets/toolkit/covers/toolkit-cover-19.svg
 img_alt: Cover description
-description: Step by step process for creating user stories for environmental data services.
+description: Step by step process for creating user stories.
 tags:
  - User Stories
  - User Testing
