@@ -24,6 +24,10 @@ featured: true
 * [Grouping User Stories into Epics](#grouping-user-stories-into-epics)
 * [Steps for Creating User Stories](#steps-for-creating-user-stories)
 
+> **Why User Stories?**
+>
+> Environmental data often involves complex scientific concepts and diverse stakeholders. User stories facilitate collaboration between scientists, product owners, developers, and users to ensure the data product or service meets real-world needs.
+
 ### What are User Stories?
 
 User stories are simple, clear descriptions of a feature or functionality told from the perspective of the user. They help everyone on the team understand and agree on what needs to be built and why.
@@ -75,6 +79,17 @@ These define how you know the user story has been successfully delivered. They a
 - **Use the user story format:** "As a [user], I want to [do something] so that [I can achieve some goal]."
 - **Example:** "As an environmental consultant, I want to filter air quality data by location so that I can assess pollution levels in a specific area."
 
+<details>
+<summary>Read more user story examples.</summary>
+<br>
+
+* **British Oceanographic Data Centre (BODC):** As a marine biologist studying the impact of climate change on coral reefs, I want to access historical and real-time oceanographic data (temperature, salinity, currents) for specific reef locations so that I can analyse trends and predict future impacts.
+* **Centre for Environmental Data Analysis (CEDA):** As an atmospheric scientist researching air pollution patterns, I want to download and process large datasets of atmospheric composition and meteorological variables from satellite and ground-based observations so that I can develop models to forecast air quality.
+* **Environmental Information Data Centre (EIDC):** As a conservation manager planning a habitat restoration project, I want to access spatial datasets of land cover, species distributions, and soil types for my project area so that I can identify suitable locations for reforestation and monitor ecological changes over time.
+* **National Geoscience Data Centre (NGDC):** As a geologist assessing the risk of landslides in a mountainous region, I want to query a database of geological maps, borehole records, and seismic data for the area so that I can identify unstable slopes and develop mitigation strategies.
+* **Polar Data Centre (PDC):** As a glaciologist studying ice sheet dynamics in Antarctica, I want to access and analyse satellite imagery, ice core data, and meteorological records from polar research expeditions so that I can understand the processes driving ice melt and contribute to sea level rise projections.
+</details>
+
 #### Step 4:  Define Acceptance Criteria
 
 - **Specify desired outcomes:** For each user story, define clear and testable acceptance criteria.
@@ -113,6 +128,21 @@ These define how you know the user story has been successfully delivered. They a
 
 - **Gather feedback:** Continuously collect feedback from users after the feature is released.
 - **Refine user stories:** Use feedback to refine existing user stories or create new ones to address evolving user needs.
+
+---
+
+![Image](/co-creation-toolkit/assets/toolkit/user-stories/user_story_checklist.png)
+
+<div class="text-center">
+    <a href="/co-creation-toolkit/assets/toolkit/user-stories/user_story_checklist.png">
+      <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mx-auto">
+        <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+        Download User Story Checklist
+      </button>
+    </a>    
+</div>
+
+<br>
 
 ### **Conclusion**
 
