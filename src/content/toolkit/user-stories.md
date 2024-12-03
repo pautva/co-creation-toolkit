@@ -134,7 +134,7 @@ These define how you know the user story has been successfully delivered. They a
 ![Image](/co-creation-toolkit/assets/toolkit/user-stories/user_story_checklist.png)
 
 <div class="text-center">
-    <a href="/co-creation-toolkit/assets/toolkit/user-stories/user_story_checklist.png">
+    <a href="/co-creation-toolkit/assets/toolkit/user-stories/user_story_checklist.png" download="user_story_checklist.png">
       <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mx-auto">
         <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
         Download User Story Checklist
