@@ -1,6 +1,6 @@
 ---
 title: Creating User Stories for Environmental Data Products and Services
-publishDate: 2024-12-02 14:00:00
+publishDate: 2024-12-10 14:00:00
 img: /co-creation-toolkit/assets/toolkit/covers/toolkit-cover-19.svg
 img_alt: Cover description
 description: Step by step process for creating user stories.
@@ -30,10 +30,29 @@ featured: true
 
 ### What are User Stories?
 
-User stories are simple, clear descriptions of a feature or functionality told from the perspective of the user. They help everyone on the team understand and agree on what needs to be built and why.
+User stories are simple, clear descriptions of a feature or functionality told from the perspective of the user. They help everyone on the team understand and agree on what needs to be built and why. User stories can be different depending on the team that is using them and the approach described in this post is just one of many approaches you could use - feel free to adapt and customise it to your needs.
 
 ![Image](/co-creation-toolkit/assets/illustrations/user-story-template.png)
 *User Story template*
+
+### When to use user stories?
+
+User stories are particularly valuable when:
+
+* The project's scientific approach and technological implementation are still evolving. They provide flexibility in exploring potential solutions while maintaining a clear focus on user needs.
+* You want to capture the core user problem and target audience without getting bogged down in specific implementation details. They help define the "who" and "why" before diving into the "how".
+* Your team needs creative problem-solving space. User stories give developers room to innovate and co-create solutions, even when they're not directly collaborating with domain experts.
+* You're working in an agile or iterative development environment. User stories align perfectly with sprint planning and can be easily prioritised and adjusted as project understanding deepens.
+* The project involves complex user interactions or requires a deep understanding of user motivations. User stories force teams to think from the user's perspective, uncovering nuanced requirements.
+
+### When NOT to use user stories?
+
+Avoid user stories when:
+
+* The solution is well-defined and technically straightforward. In cases with clear, established approaches, more detailed technical specifications might be more appropriate.
+* You require precise, granular requirements that leave little room for interpretation. User stories are intentionally broad and may not suit projects needing exact, step-by-step guidance.
+* The project involves low-level technical implementations or infrastructure work where user perspective is less relevant. Backend optimisations or system-level changes might benefit more from technical specifications.
+* Your team lacks the experience to translate user stories into actionable development tasks. Effective use of user stories requires skill in breaking down abstract user needs into concrete implementation strategies.
 
 ### Components of a User Story
 
