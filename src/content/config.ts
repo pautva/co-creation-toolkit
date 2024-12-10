@@ -51,8 +51,8 @@ const templatesCollection = defineCollection({
 
 export const collections = {
   "case-studies": caseStudiesCollection,
-  work: workCollection,
-  toolkit: toolkitCollection,
-  drafts: draftsCollection,
-  templates: templatesCollection,
+  "work": workCollection,
+  "toolkit": toolkitCollection,
+  "drafts": draftsCollection,
+  "templates": templatesCollection,
 };
