@@ -50,7 +50,7 @@ Geological Surveys faces challenges in sharing complex 3D geological models with
 2. ???
 3. ???
 
-### Recommendation for improving the user experience
+### Recommendations for improving the user experience
 
 1. Summary of the tool introducing who is it for and what it does.
 2. Better documentation that's easier to search
