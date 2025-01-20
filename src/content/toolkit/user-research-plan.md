@@ -15,13 +15,9 @@ featured: false
 
 ## Overview
 
-> The main aim of prototypes is to **explore many different solutions early on**. At the start of the project you you should use low fidelity prototypes - they will allow you to iterate much quicker. Later in the project, when requirements are more clear, you can use high fidelity prototypes.
+> What type of methods and approach you need will depend on your research questions. You can use the below diagram to guide your choice of research activities.
 
-Figma is the go-to tool for creating prototypes in BGS. To learn how to use Figma for prototyping, refer to the [guide below](#creating-your-first-prototype).
-
-### Choosing research 
-
-What type of methods and approach you need will depend on your research questions. You can use the below diagram to guide your choice of research activities.
+### Choosing research methods
 
 ![image](/co-creation-toolkit/assets/toolkit/user-research/methods-diagram.png)
 *Source: [Just Enough Research](https://abookapart.com/products/just-enough-research)*
