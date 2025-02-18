@@ -30,6 +30,46 @@ const toolkitTools = (await getCollection("toolkit")).sort(
           aria-label="Tabs"
           role="tablist"
         >
+
+          <!-- Collaboration and engagement -->
+          <button
+            type="button"
+            class="hs-tab-active:bg-blue-100 hs-tab-active:hover:border-transparent w-full flex flex-col text-start hover:bg-blue-50 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-neutral-800 dark:hover:bg-neutral-800"
+            id="tabs-with-card-item-5"
+            data-hs-tab="#tabs-with-card-5"
+            aria-controls="tabs-with-card-5"
+            role="tab"
+          >
+            <svg
+              class="flex-shrink-0 hidden sm:block size-7 hs-tab-active:text-blue-800 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-white"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><path
+                d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"
+              ></path><path d="M5 3v4"></path><path d="M19 17v4"></path><path
+                d="M3 5h4"></path><path d="M17 19h4"></path></svg
+            >
+            <span class="mt-5">
+              <span
+                class="hs-tab-active:text-blue-800 block font-semibold text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
+                >Collaboration and Engagement</span
+              >
+              <span
+                class="hidden lg:block mt-2 text-gray-800 dark:text-neutral-200"
+                >Methods for facilitating collaboration and communication among
+                diverse stakeholders.</span
+              >
+            </span>
+          </button>
+
+          <!-- User Research -->
           <button
             type="button"
             class="hs-tab-active:bg-blue-100 hs-tab-active:hover:border-transparent w-full flex flex-col text-start hover:bg-blue-50 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-neutral-800 dark:hover:bg-neutral-800 active"
@@ -71,6 +111,7 @@ const toolkitTools = (await getCollection("toolkit")).sort(
             </span>
           </button>
 
+          <!-- Design and prototyping -->
           <button
             type="button"
             class="hs-tab-active:bg-blue-100 hs-tab-active:hover:border-transparent w-full flex flex-col text-start hover:bg-blue-50 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-neutral-800 dark:hover:bg-neutral-800"
@@ -112,6 +153,7 @@ const toolkitTools = (await getCollection("toolkit")).sort(
             </span>
           </button>
 
+          <!-- Evaluation and testing -->
           <button
             type="button"
             class="hs-tab-active:bg-blue-100 hs-tab-active:hover:border-transparent w-full flex flex-col text-start hover:bg-blue-50 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-neutral-800 dark:hover:bg-neutral-800"
@@ -153,42 +195,7 @@ const toolkitTools = (await getCollection("toolkit")).sort(
             </span>
           </button>
 
-          <button
-            type="button"
-            class="hs-tab-active:bg-blue-100 hs-tab-active:hover:border-transparent w-full flex flex-col text-start hover:bg-blue-50 p-3 md:p-5 rounded-xl dark:hs-tab-active:bg-neutral-800 dark:hover:bg-neutral-800"
-            id="tabs-with-card-item-5"
-            data-hs-tab="#tabs-with-card-5"
-            aria-controls="tabs-with-card-5"
-            role="tab"
-          >
-            <svg
-              class="flex-shrink-0 hidden sm:block size-7 hs-tab-active:text-blue-800 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-white"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              ><path
-                d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"
-              ></path><path d="M5 3v4"></path><path d="M19 17v4"></path><path
-                d="M3 5h4"></path><path d="M17 19h4"></path></svg
-            >
-            <span class="mt-5">
-              <span
-                class="hs-tab-active:text-blue-800 block font-semibold text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
-                >Collaboration and Engagement</span
-              >
-              <span
-                class="hidden lg:block mt-2 text-gray-800 dark:text-neutral-200"
-                >Methods for facilitating collaboration and communication among
-                diverse stakeholders.</span
-              >
-            </span>
-          </button>
+
         </nav>
         <!-- End Tab Nav -->
 
