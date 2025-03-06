@@ -19,7 +19,7 @@ organisation: BGS
 > Our challenge in this project was to prototype a decision support tool which would enable local government, the local community and other relevant partners such as regulators and water utility companies to collaboratively plan and evaluate the environmental sustainability of urban growth planning scenarios using co-designed water neutrality indicators.
 
 ![Image](/co-creation-toolkit/assets/case-studies/vdr/vdr-screenshots.png)
-*VDR tool will allow users to explore business as usual scenario, create new scenarios and view/edit model settings.*
+*The Virtual Decision Room (VDR) tool will allow users to explore business as usual scenario, create new scenarios and view/edit model settings.*
 
 ## Approach
 
@@ -44,7 +44,7 @@ We also reviewed literature on the best practices for creating decision support 
 * Gain insight into the nature of the planning object
 * Learn about other stakeholders
 * Increase collaboration among stakeholders
-* Share information and knowledge among various stakeholder better
+* Share information and knowledge among various stakeholders better
 * Find agreement on key problems and best solutions
 * Perform key tasks more efficiently
 * Make better informed plans or decisions
@@ -55,24 +55,24 @@ We also identified key goals of each user, which helped us prioritise product fe
 
 #### The key users and their goals were:
 
-* **Greater Manchester Combined Authority** - Explore VDR to inform the setting of rules needed to reach 2050 goal on managing flood risk
-* **United Utilities** - Explore VDR to inform the setting of rules needed to reach 2050 goal on surface water to sewer standards
-* **Strategic town planners** - Explore VDR together with United Utilities and Environment Agency to develop a collaborative plan for reaching 2050 growth targets in a sustainable way
+* **Greater Manchester Combined Authority**: explore VDR to inform the setting of rules needed to reach 2050 goal on managing flood risk
+* **United Utilities**: explore VDR to inform the setting of rules needed to reach 2050 goal on surface water to sewer standards
+* **Strategic town planners**: explore VDR together with United Utilities and Environment Agency to develop a collaborative plan for reaching 2050 growth targets in a sustainable way
 
 ![Image](/co-creation-toolkit/assets/case-studies/vdr/vdr-home.jpg)
-*VDR tool will allow users to explore business as usual scenario, create new scenarios and view/edit model settings.*
+*The VDR tool will allow users to explore business as usual scenario, create new scenarios and view/edit model settings.*
 
 ## Impact
 
 Involving users in the early stages of the product development had a number of positive impacts such as:
 
-1. Better understanding of user needs: user research helped us identify the needs and frustrations of ‘trilateral’ group who would be using this Decision Support tool.
+1. Better understanding of user needs: user research helped us identify the needs and frustrations of a ‘trilateral’ group who would be using this Decision Support tool.
 2. Increased stakeholder buy-in: if the stakeholders feel that their concerns, needs and frustrations are taken into consideration, they are more likely to provide more feedback and answer questions that might arise throughout the project.
 3. Iterate and validate designs: testing and validating designs early on with the users increased the chance of getting the design right and saved time and cost later at the development stage.
 
 This project is still in early stages of development. Further testing of the working version will allow us to understand the users and the context in which this tool would be used even better.
 
-If we are successful and can create an effective decision support tool for evidence-led water neutral place making, it can have a number of positive impacts:
+If we are successful and can create an effective decision support tool for evidence-led water neutral place making, it could have a number of positive impacts:
 
 * Improved water management
 * Reduced water consumption
@@ -83,7 +83,7 @@ If we are successful and can create an effective decision support tool for evide
 If this proves to be a successful tool, it could also be applied to other regions besides Greater Manchester.
 
 ![Image](/co-creation-toolkit/assets/case-studies/vdr/vdr-screenshot.jpg)
-*VDR tool will allow users to explore business as usual scenario, create new scenarios and view/edit model settings.*
+*The VDR tool will allow users to explore business as usual scenario, create new scenarios and view/edit model settings.*
 
 ## Lessons learned
 
