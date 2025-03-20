@@ -2,7 +2,7 @@
 title: Designing Geospatial Data Portals 
 publishDate: 2024-07-09 00:00:00
 img: /co-creation-toolkit/assets/case-studies/covers/cs-cover-12.png
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img_alt: Black and grey water ripples together in a subtle texture.
 description: |
   We researched geospatial data users and designed guidelines to create user-friendly portals that make data easy to find and use for better decision-making.
 tags:
@@ -39,7 +39,7 @@ We also created 6 user archetypes to summarise the user research findings. Those
 * Non-geo data engineer
 
 ![Geospatial data portal illustration](/co-creation-toolkit/assets/case-studies/geospatial/Persona-Investigator.png)
-*Investigator Archetype*
+*Investigator user archetype example*
 
 ### User Journeys
 
@@ -65,21 +65,17 @@ The broad stages of the journey for discovering spatial data are quite similar f
 
 The planning or problem space exploration stage usually doesn’t involve data portal use yet. In this stage some people might be proactively seeking new data challenges, some might be given specific data tasks to solve.
 
-In the wide search stage people usually rely on search engines or colleagues to get a better understanding of the available data landscape. They might find out that the data they are looking for exists on multiple sources, so they must find a way to identify which one of them is more trustworthy and better suited for their challenge.
+In the wide search stage, people usually rely on search engines or colleagues to get a better understanding of the available data landscape. They might find out that the data they are looking for exists on multiple sources, so they must find a way to identify which one of them is more trustworthy and better suited for their challenge.
 
 ![Geospatial data portal illustration](/co-creation-toolkit/assets/case-studies/geospatial/ux-formula.png)
 *Good UX formula*
 
 Deep search stage is the place where people start using data portals in greater depth. They would identify the potential data portals that could hold the data they are looking for and they would want to narrow down the search. Data experts might spend a bit more time in the deep search stage to ensure that the data they found is the one they need, since they might not have the domain knowledge of that specific field.
 
-The next stage – data evaluation and use – might also be done with the help of data portals. Users might want to examine the possible datasets to ensure that they have the appropriate license and meet their other requirements. There might be some extra steps of registering, purchasing or providing other details before data can be accessed. Many people mentioned that if these additional steps are too tedious it could discourage them from using the data portal or the data itself. They would also like, if possible, to visualise data in an appropriate format for its type and possibly preview a smaller sample of the whole dataset to avoid downloading large files or purchasing the wrong datasets.
+The next stage – data evaluation and use – might also be done with the help of data portals. Users might want to examine the possible datasets to ensure that they have the appropriate license and meet their other requirements. There might be some extra steps of registering, purchasing, or providing other details before data can be accessed. Many people mentioned that if these additional steps are too tedious it could discourage them from using the data portal or the data itself. They would also like, if possible, to visualise data in an appropriate format for its type and possibly preview a smaller sample of the whole dataset to avoid downloading large files or purchasing the wrong datasets.
 
 ## Data Discoverability 3
 
-During the DD3 project, we collaborated with Ordnance Survey’s UX team to develop design guidelines, recommendations, and wireframes specifically for geospatial portal developers and designers.
+During the Data Discoverability 3 (DD3) project, we collaborated with Ordnance Survey’s UX team to develop design guidelines, recommendations, and wireframes specifically for geospatial portal developers and designers.
 
-The recommendations are derived from user research findings from previous workstreams. Carl Watson has published a blog post detailing this work:
-
-## Links
-
-* [The secret to great geospatial data portals: start with the user](https://geospatialcommission.blog.gov.uk/2021/09/10/the-secret-to-great-geospatial-data-portals-start-with-the-user/)
+The recommendations are derived from user research findings from previous workstreams. Carl Watson has published a blog post detailing this work titled ["The secret to great geospatial data portals: start with the user"](https://geospatialcommission.blog.gov.uk/2021/09/10/the-secret-to-great-geospatial-data-portals-start-with-the-user/).

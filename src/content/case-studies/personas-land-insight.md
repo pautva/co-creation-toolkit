@@ -24,9 +24,9 @@ organisation: BGS
 ### Persona Inspiration
 
 * [Designing for Digital Twins](https://towardsdatascience.com/designing-for-digital-twins-e2b3e07a5d1e)
-* [Digital twins of the natural environment](https://reader.elsevier.com/reader/sd/pii/S266638992100221X?token=3F39E83900E36643E1F8C36907BAEE470CF9B3A81EB170AFA1D9FA22D03917154BE9E55C193D0C44EAF5EE430B466AC3&originRegion=eu-west-1&originCreation=20220408124400)
+* [Digital twins of the natural environment](https://doi.org/10.1016/j.patter.2021.100359)
 * [Towards Environmental Digital Twins in Azure with Dask and Pangeo](https://towardsdatascience.com/towards-environmental-digital-twins-in-azure-with-dask-and-pangeo-71d35414ec58)
-* [How ‘digital twins’ can model future effects of climate change](https://www.greenbiz.com/article/how-digital-twins-can-model-future-effects-climate-change)
+* [How ‘digital twins’ can model future effects of climate change](https://trellis.net/article/how-digital-twins-can-model-future-effects-climate-change/)
 
 ### Personas for Land Insight
 

@@ -16,13 +16,13 @@ organisation: BGS
 
 > We took a leading role in developing a platform to simplify global hazard monitoring. We designed the initial prototype and conducted a user testing phase with stakeholders from various science agencies.
 
-![Image](/co-creation-toolkit/assets/case-studies/inhfl/sing-in.png)
-*INHFL Login Page*
+![Image](/co-creation-toolkit/assets/case-studies/inhfl/sign-in.png)
+*INHFL prototype Login Page*
 
 We created this document to share best practices and address common challenges in user research, development, engagement, and the integration of scientific knowledge, empowering the creation of effective DSTs that maximise their impact.
 
 ![Image](/co-creation-toolkit/assets/case-studies/inhfl/view-data.png)
-*INHFL Events Page*
+*INHFL prototype Events Page*
 
 ### Methods and Tools Used
 
@@ -31,7 +31,7 @@ We created this document to share best practices and address common challenges i
 * **User Testing**: A combination of in-person and remote user testing sessions, facilitated by the Useberry platform, allowed us to
 
 ![Image](/co-creation-toolkit/assets/case-studies/inhfl/home.png)
-*INHFL Home Page*
+*INHFL prototype Home Page*
 
 ### Lessons Learned
 
@@ -40,8 +40,8 @@ Overall, users find the prototype promising, valuing its design and potential. H
 This early prototyping and user feedback process will significantly save development time by answering critical questions upfront. The early prototyping and user feedback process will significantly save development time by answering critical questions upfront.
 
 ![Image](/co-creation-toolkit/assets/case-studies/inhfl/headlines.png)
-*INHFL Headlines Page*
+*INHFL prototype Headlines Page*
 
 ## Links
 
-* [INHFL Figma Prototype](https://www.figma.com/proto/SszgfI11TuW4Td3Bhe5ikw/IFL-Back-End-Prototype?page-id=&node-id=2503-2968&viewport=-288%2C1264%2C0.21&t=0HPvj9oyKuJZNF95-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2503%3A2968)
+* [INHFL Figma Interactive Prototype](https://www.figma.com/proto/SszgfI11TuW4Td3Bhe5ikw/IFL-Back-End-Prototype?page-id=&node-id=2503-2968&viewport=-288%2C1264%2C0.21&t=0HPvj9oyKuJZNF95-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2503%3A2968)
