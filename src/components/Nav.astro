@@ -2,6 +2,7 @@
 import Icon from './Icon.astro';
 import ThemeToggle from './ThemeToggle.astro';
 import type { iconPaths } from './IconPaths';
+import AnnouncementBanner from './AnnouncementBanner.astro';
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
@@ -21,10 +22,12 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 ];
 ---
 
+<AnnouncementBanner />
+
 <nav>
 	<div class="menu-header">
 		<a href="/co-creation-toolkit/" class="site-title">
-			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
+			<Icon icon="strategy" color="var(--accent-regular)" size="1.6em" gradient />
 			Co-Creation Toolkit
 		</a>
 		<menu-button>
