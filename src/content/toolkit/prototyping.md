@@ -15,9 +15,9 @@ featured: false
 
 ## Overview
 
-> The main aim of prototypes is to **explore many different solutions early on**. At the start of the project you you should use low fidelity prototypes - they will allow you to iterate much quicker. Later in the project, when requirements are more clear, you can use high fidelity prototypes.
+> Prototypes serve to **explore a wide range of potential solutions**, especially in the early stages of a project. It's best to start with low-fidelity prototypes to enable rapid iteration. 
 
-Figma is the go-to tool for creating prototypes in BGS. To learn how to use Figma for prototyping, refer to the [guide below](#creating-your-first-prototype).
+It's crucial to have a shared understanding of what "prototype" means within the team. Consistent terminology prevents miscommunication and ensures everyone is on the same page.
 
 ### Different types of prototypes
 
@@ -43,6 +43,9 @@ To make the discussion about prototypes clearer you can use the below [definitio
 * Has access to real data and is sent real live traffic. 
 * Hasn't been "productised" (no test automation, SEO, localization, etc).
 
+![Infographic describing different types of prototypes](/co-creation-toolkit/assets/infographics/prototypes-infographic.png)
+*Infographic describing different types of prototypes*
+
 ### Which prototype is the most useful for your project?
 
 The prototype that is the most useful depends on the questions you want to answer early in the project, before the full product development begins. 
@@ -50,6 +53,7 @@ The prototype that is the most useful depends on the questions you want to answe
 * Do you want to measure user interest? (low-fidelity prototype)
 * Evaluate how easy to use a system is? (high-fidelity prototype) 
 * Test technical capabilities? (feasibility prototype, e.g. Jupyter notebook).
+
 
 ### When to use it?
 
@@ -71,8 +75,8 @@ The prototype that is the most useful depends on the questions you want to answe
 
 * **Fixed Scope and Budget**: When the project scope and budget are rigidly defined, prototyping may lead to scope creep or budget overruns if not managed carefully.
 
-![image](/co-creation-toolkit/assets/toolkit/prototyping/cover.png)
-*Screenshot of BGS component library for prototyping*
+![Infographic describing different types of prototypes](/co-creation-toolkit/assets/infographics/prototype-matrix.png)
+*Prototype matrix*
 
 ### What are the benefits of creating prototypes?
 
@@ -88,17 +92,7 @@ The prototype that is the most useful depends on the questions you want to answe
 
 * **Time and cost efficiency**: Building a prototype is generally quicker and less costly than developing the entire product. It can help save resources in case changes or improvements are needed.
 
-### Creating your first prototype
-
-If you're interested in learning how to create prototypes, this guide is for you! It will demonstrate how to enhance an existing prototype, making it ready for testing with users.
-
-Simply open the provided [slidedeck](https://www.figma.com/proto/BepNu7xysqXesp2suIw1Bh/Rapid-Prototyping-Slides?page-id=7%3A2&type=design&node-id=10-4897&viewport=62%2C3174%2C0.43&t=wwlFSh7xPiTvqgID-1&scaling=min-zoom&mode=design) and follow the step-by-step instructions. You'll learn how to set up, edit, and share your prototype easily.
-
-This is the [project file](https://www.figma.com/community/file/1258074274378529219) you'll be working with throughout the process. Happy prototyping!
-
-After the prototype was developed, it was tested by a range of intended users to assess its usability and effectiveness. This case study briefly describes the activities of this design sprint, the outcomes and the lessons learned.
-
-### Other tools for prototyping
+### Tools for prototyping
 
 #### Low-fidelity prototypes
 
@@ -112,17 +106,20 @@ After the prototype was developed, it was tested by a range of intended users to
 #### High-fidelity prototypes
 
 * [Figma](https://figma.com/) - for creating high fidelity prototypes you can use Figma. It has a slightly steeper learning curve, but it will allow you to create more detailed wireframes that resemble the real product. They are good for communicating a proposed product to stakeholders, but it is important to remind stakeholders that they are not the final product.
-* [Framer X](https://www.framer.com/) - this tools is good for prototypes that require the use of 3D models or real data. You can import 3D models from 
+* [Framer](https://www.framer.com/) - this tools is good for prototypes that require the use of 3D models or real data. You can import 3D models from 
 * [Sketchfab](https://sketchfab.com/), real data from APIs or google sheets and real maps.
 * [Webflow](https://www.webflow.com/) - this tool is good for prototyping websites. 
-* [Framer Sites](https://www.framer.com/sites/) - similar to webflow, but still in BETA.
+
+### Creating your first prototype
+
+If you're interested in learning how to create prototypes, this guide will demonstrate how to enhance an existing prototype, making it ready for testing with users.
+
+Simply open the provided [slidedeck](https://www.figma.com/proto/BepNu7xysqXesp2suIw1Bh/Rapid-Prototyping-Slides?page-id=7%3A2&type=design&node-id=10-4897&viewport=62%2C3174%2C0.43&t=wwlFSh7xPiTvqgID-1&scaling=min-zoom&mode=design) and follow the step-by-step instructions. You'll learn how to set up, edit, and share your prototype easily.
+
+This is the [project file](https://www.figma.com/community/file/1258074274378529219) you'll be working with throughout the process. Happy prototyping!
 
 ### Links
 
 * [Creating a Figma account](https://help.figma.com/hc/en-us/articles/360039811114-Create-a-Figma-account)
 * [Step by step instructions for creating your first Figma prototype](https://www.figma.com/proto/BepNu7xysqXesp2suIw1Bh/Rapid-Prototyping-Slides?page-id=7%3A2&type=design&node-id=10-4897&viewport=62%2C3174%2C0.43&t=wwlFSh7xPiTvqgID-1&scaling=min-zoom&mode=design)
 * [Rapid Prototyping Workshop File](https://www.figma.com/community/file/1258074274378529219)
-
-### Questions and comments
-
-For any inquiries regarding Figma usage or prototype creation, feel free to contact [ux@bgs.ac.uk](mailto:ux@bgs.ac.uk).
