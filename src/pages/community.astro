@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CommunityComponent from "../components/CommunityComponent.astro";
+import Hero from "../components/Hero.astro";
+
+---
+
+<BaseLayout
+  title="Community | Co-Creation Toolkit"
+  description="Co-Creation Toolkit Community Page"
+>
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="Community"
+        tagline="This toolkit is a collaborative effort, and we welcome your contributions!"
+        align="center"
+      />
+
+      <div class="wrapper stack gap-20 lg:gap-48 mt-32">
+        <CommunityComponent />
+      </div>
+    </main>
+  </div>
+</BaseLayout>

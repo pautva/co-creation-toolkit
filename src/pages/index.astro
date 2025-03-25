@@ -17,6 +17,7 @@ import Quote1 from "../components/Quote1.astro";
 import FAQ from "../components/FAQ.astro";
 import LatestCaseStudies from "../components/LatestCaseStudies.astro";
 import HowCanThisToolkitHelpYou from "../components/HowCanThisToolkitHelpYou.astro";
+import CommunityComponent from "../components/CommunityComponent.astro";
 
 // Content Fetching: List four most recent work projects
 // const caseStudies = (await getCollection("case-studies"))
@@ -57,7 +58,6 @@ import HowCanThisToolkitHelpYou from "../components/HowCanThisToolkitHelpYou.ast
     </div>
 
     <main class="wrapper stack gap-20 lg:gap-48">
-
       <LatestCaseStudies />
 
       <LatestTools />
@@ -68,10 +68,11 @@ import HowCanThisToolkitHelpYou from "../components/HowCanThisToolkitHelpYou.ast
 
       <Resources />
 
-       <Team />
+      <Team />
+
+      <CommunityComponent />
 
       <FAQ />
-       
     </main>
   </div>
 </BaseLayout>
