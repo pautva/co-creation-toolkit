@@ -89,14 +89,12 @@ const toolkitTools = (await getCollection("toolkit")).sort(
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              ><path
-                d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"
-              ></path><path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"></path><path
-                d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"></path><path
-                d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"
-              ></path><path
-                d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"
-              ></path></svg
+              >
+              <circle cx="9" cy="9" r="4"></circle>
+              <path d="M12.5 10a4 4 0 1 0 0-2"></path>
+              <path d="M3 21v-2a4 4 0 0 1 4-4h4"></path>
+              <path d="M21 21v-2a4 4 0 0 0-4-4h-4"></path>
+              </svg
             >
             <span class="mt-5">
               <span
@@ -131,14 +129,18 @@ const toolkitTools = (await getCollection("toolkit")).sort(
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              ><path
-                d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"
-              ></path><path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"></path><path
-                d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"></path><path
-                d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"
-              ></path><path
-                d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"
-              ></path></svg
+              >
+              <path d="M3 3v18h18" />
+              <path d="M7 12v5" />
+              <path d="M11 8v9" />
+              <path d="M15 12v5" />
+              <path d="M19 8v9" />
+              <path d="M3 8h16" />
+              <circle cx="7" cy="8" r="1" />
+              <circle cx="11" cy="4" r="1" />
+              <circle cx="15" cy="8" r="1" />
+              <circle cx="19" cy="4" r="1" />
+              </svg
             >
             <span class="mt-5">
               <span
@@ -173,14 +175,13 @@ const toolkitTools = (await getCollection("toolkit")).sort(
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              ><path
-                d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"
-              ></path><path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"></path><path
-                d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"></path><path
-                d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"
-              ></path><path
-                d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"
-              ></path></svg
+              >
+              <path d="M9 11l3 3L22 4"></path>
+              <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+              <circle cx="9" cy="9" r="2"></circle>
+              <circle cx="9" cy="15" r="2"></circle>
+              <circle cx="15" cy="15" r="2"></circle>
+              </svg
             >
             <span class="mt-5">
               <span
@@ -203,6 +204,7 @@ const toolkitTools = (await getCollection("toolkit")).sort(
         <div class="mt-12 md:mt-16">
           <div
             id="tabs-with-card-1"
+            class="hidden"
             role="tabpanel"
             aria-labelledby="tabs-with-card-item-1"
           >
@@ -309,7 +311,7 @@ const toolkitTools = (await getCollection("toolkit")).sort(
 
           <div
             id="tabs-with-card-5"
-            class="hidden"
+            class=""
             role="tabpanel"
             aria-labelledby="tabs-with-card-item-5"
           >
