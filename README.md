@@ -6,7 +6,7 @@ This toolkit is designed to be accessible to users with varying levels of UX exp
 
 # GitHub Pages Link
 
-https://pautva.github.io/co-creation-toolkit/
+https://nerc-eds.github.io/co-creation-toolkit/
 
 # How to contribute to this toolkit
 
@@ -42,6 +42,17 @@ We encourage community contributions! You can share your own resources, case stu
 ## Markdown Cheat Sheet
 
 Learn how to format documents using markdown https://www.markdownguide.org/cheat-sheet/
+
+---
+
+## Tooling
+
+* [Astro](https://astro.build/) - a modern static site generator for creating content-driven websites
+* [Tailwind CSS](https://tailwindcss.com/) - a utility-first CSS framework
+* [Preline UI](https://preline.co/) - open-source Tailwind CSS components library 
+* [Markdown](https://www.markdownguide.org/cheat-sheet/) - markdown syntax for content creation
+* [GitHub Actions](https://docs.astro.build/en/guides/deploy/github/) - CI/CD pipeline for publishing on GitHub Pages
+* [GitHub Pages](https://docs.github.com/en/pages/quickstart) - hosting
 
 ---
 
