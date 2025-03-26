@@ -8,6 +8,8 @@ import FAQ from "../components/FAQ.astro";
 import CoDesignPrinciples from "../components/CoDesignPrinciples.astro";
 import CommunityComponent from "../components/CommunityComponent.astro";
 import GetInvolved from "../components/GetInvolved.astro";
+import Hero from "../components/Hero.astro";
+
 ---
 
 <BaseLayout
@@ -15,25 +17,13 @@ import GetInvolved from "../components/GetInvolved.astro";
   description="About Co-Creation Toolkit"
 >
   <div class="stack gap-20">
-    <main class="wrapper about">
+    <main class="wrapper stack gap-8">
       <!-- Hero -->
-      <div class="relative overflow-hidden">
-        <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="max-w-2xl text-center mx-auto">
-            <h1
-              class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white"
-            >
-              About the <span class="text-blue-800">Co-Creation</span> Toolkit
-            </h1>
-            <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400">
-              This toolkit provides the resources and guidance you need to
-              create user-friendly environmental data services. Explore case
-              studies, access UX templates, and learn how co-design can help you
-              collaborate with users and build effective solutions.
-            </p>
-          </div>
-        </div>
-      </div>
+      <Hero
+        title="About the Co-Creation Toolkit"
+        tagline="This toolkit provides the resources and guidance you need to create user-friendly environmental data services. Explore case studies, access UX templates, and learn how co-design can help you collaborate with users and build effective solutions."
+        align="center"
+      />
 
       <div class="wrapper stack gap-20 lg:gap-48 mt-32">
 

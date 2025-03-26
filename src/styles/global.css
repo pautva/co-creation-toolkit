@@ -175,9 +175,9 @@ img {
   height: auto;
 }
 
-a {
+/* a {
   color: var(--bgs-1);
-}
+} */
 
 .link-color {
 	color: var(--link-color)
