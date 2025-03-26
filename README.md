@@ -56,7 +56,6 @@ Learn how to format documents using markdown https://www.markdownguide.org/cheat
 
 ---
 
-
 ## 👀 Want to learn more about Astro?
 
 Check [Astro documentation](https://docs.astro.build).
