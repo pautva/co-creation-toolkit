@@ -16,10 +16,10 @@ We encourage community contributions! You can share your own resources, case stu
 
 > Case studies showcase real-world examples of how UX (User Experience) methods have been successfully applied to address **environmental data** challenges. Your contributions should include a brief overview of the project, the specific UX methods used (e.g., design sprints, user research, prototyping), the outcomes achieved, and any key takeaways for others working on similar projects. Your case studies will inspire and guide others in the field, demonstrating the power of user-centered design.
 
-1. Create a new markdown file in the [co-creation-toolkit/src/content/case-studies/](https://github.com/pautva/co-creation-toolkit/tree/main/src/content/case-studies) folder following [this template](https://github.com/pautva/co-creation-toolkit/blob/main/src/content/templates/case-study.md).
+1. Create a new markdown file in the [co-creation-toolkit/src/content/case-studies/](https://github.com/NERC-EDS/co-creation-toolkit/tree/main/src/content/case-studies) folder following [this template](https://github.com/NERC-EDS/co-creation-toolkit/blob/main/src/content/templates/case-study.md).
 2. Update the case study description at the top of the page
 3. Add content below the '---' line
-4. Add images and other assets to the Case Studies Assets folder (https://github.com/pautva/co-creation-toolkit/tree/main/static/assets/case-studies)
+4. Add images and other assets to the Case Studies Assets folder (https://github.com/NERC-EDS/co-creation-toolkit/tree/main/static/assets/case-studies)
 5. Create a pull request into the main branch
 6. Once the updated files are merged into the `main` branch, the website will be updated
 
@@ -27,7 +27,7 @@ We encourage community contributions! You can share your own resources, case stu
 
 > Toolkit includes templates, guides, and documents that can help others implement effective UX practices in their **environmental data** projects. Think of things like persona templates, interview guides, product requirement documents, usability testing scripts, and any other tools you've found valuable. Your contributions will empower others to gather user insights, design user-friendly solutions, and create impactful environmental data products and services.
 
-1. Create a new markdown file in the [co-creation-toolkit/src/content/toolkit/](https://github.com/pautva/co-creation-toolkit/tree/main/src/content/toolkit) folder following this [template](https://github.com/pautva/co-creation-toolkit/blob/main/src/content/templates/toolkit-method.md).
+1. Create a new markdown file in the [co-creation-toolkit/src/content/toolkit/](https://github.com/NERC-EDS/co-creation-toolkit/tree/main/src/content/toolkit) folder following this [template](https://github.com/NERC-EDS/co-creation-toolkit/blob/main/src/content/templates/toolkit-method.md).
 2. Update the toolkit description at the top of the page
 3. Specify the [category](https://pautva.github.io/co-creation-toolkit/toolkit/) under which the method/tool should be shown in the markdown file: 
     * **User Research**
@@ -35,7 +35,7 @@ We encourage community contributions! You can share your own resources, case stu
     * **Evaluation**
     * **Collaboration**
 4. Add content below the '---' line
-5. Add images and other assets to the Toolkit Assets folder (https://github.com/pautva/co-creation-toolkit/tree/main/static/assets/toolkit)
+5. Add images and other assets to the Toolkit Assets folder (https://github.com/NERC-EDS/co-creation-toolkit/tree/main/static/assets/toolkit)
 6. Create a pull request into the main branch
 7. Once the updated files are merged into the `main` branch, the website will be updated
 
